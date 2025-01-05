@@ -8,9 +8,13 @@ from internvl.train.dataset import build_transform, dynamic_preprocess
 from PIL import Image
 from tqdm import tqdm
 
+from multimodal_coding.utils import compress_image_jpeg
 
-def load_image(image_file, input_size=224):
+
+def load_image(image_file, input_size=224, compress_ratio=0):
     image = Image.open(image_file).convert('RGB')
+    if compress_ratio != 0:
+        image = compress_image_jpeg(image, quality=compress_ratio)
     transform = build_transform(is_train=False, input_size=input_size)
     if args.dynamic:
         images = dynamic_preprocess(image, image_size=input_size,
@@ -44,6 +48,7 @@ if __name__ == '__main__':
     parser.add_argument('--load-in-8bit', action='store_true')
     parser.add_argument('--load-in-4bit', action='store_true')
     parser.add_argument('--auto', action='store_true')
+    parser.add_argument('--compress-ratio', type=int, default=0)
     args = parser.parse_args()
 
     model, tokenizer = load_model_and_tokenizer(args)
@@ -76,7 +81,7 @@ if __name__ == '__main__':
             question = question + ' ' + prompt
             img_path = os.path.join('../../data/mme/MME_Benchmark_release_version', filename, img)
             assert os.path.exists(img_path), img_path
-            pixel_values = load_image(img_path, image_size).cuda().to(torch.bfloat16)
+            pixel_values = load_image(img_path, image_size, compress_ratio=args.compress_ratio).cuda().to(torch.bfloat16)
             generation_config = dict(
                 do_sample=args.sample,
                 top_k=args.top_k,
