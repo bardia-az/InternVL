@@ -1,0 +1,70 @@
+Original:
+=========== Perception ===========
+total score: 1345.9490796318528
+
+         existence  score: 175.0
+         count  score: 113.33333333333334
+         position  score: 140.0
+         color  score: 138.33333333333331
+         posters  score: 116.32653061224491
+         celebrity  score: 144.70588235294116
+         scene  score: 142.5
+         landmark  score: 128.5
+         artwork  score: 139.75
+         OCR  score: 107.5
+
+=========== Cognition ===========
+total score: 460.3571428571429
+
+         commonsense_reasoning  score: 97.85714285714286
+         numerical_calculation  score: 60.0
+         text_translation  score: 177.5
+         code_reasoning  score: 125.0
+
+
+JPEG - 25 :
+=========== Perception ===========
+total score: 1373.3252300920367
+
+         existence  score: 185.0
+         count  score: 110.0
+         position  score: 138.33333333333331
+         color  score: 148.33333333333331
+         posters  score: 112.58503401360545
+         celebrity  score: 143.8235294117647
+         scene  score: 147.0
+         landmark  score: 131.75
+         artwork  score: 141.5
+         OCR  score: 115.0
+
+=========== Cognition ===========
+total score: 429.6428571428571
+
+         commonsense_reasoning  score: 97.14285714285714
+         numerical_calculation  score: 57.5
+         text_translation  score: 177.5
+         code_reasoning  score: 97.5
+
+
+JPEG - 10 :
+=========== Perception ===========
+total score: 1329.812525010004
+
+         existence  score: 180.0
+         count  score: 106.66666666666666
+         position  score: 133.33333333333334
+         color  score: 133.33333333333334
+         posters  score: 106.80272108843536
+         celebrity  score: 141.1764705882353
+         scene  score: 146.0
+         landmark  score: 127.5
+         artwork  score: 140.0
+         OCR  score: 115.0
+
+=========== Cognition ===========
+total score: 414.2857142857143
+
+         commonsense_reasoning  score: 94.28571428571428
+         numerical_calculation  score: 60.0
+         text_translation  score: 162.5
+         code_reasoning  score: 97.5
