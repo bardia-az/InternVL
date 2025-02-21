@@ -8,7 +8,7 @@ from internvl.train.dataset import build_transform, dynamic_preprocess
 from PIL import Image
 from tqdm import tqdm
 
-from multimodal_coding.utils import compress_image_jpeg
+from multimodal_coding.utils.utils import compress_image_jpeg
 
 
 def load_image(image_file, input_size=224, compress_ratio=0):
