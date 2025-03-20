@@ -13,7 +13,7 @@ import os
 import random
 import re
 from collections import Counter
-from typing import Dict
+from typing import Dict, Callable
 
 import cv2
 import imageio
@@ -717,7 +717,8 @@ def preprocess_internvl2_5(
         group_by_length: bool = False,
         use_packed_ds: bool = False,
         ds_name: str = None,
-        num_image: int = 1
+        num_image: int = 1,
+        clip_tokenizer: Callable = None
 ) -> Dict:
     assert len(sources) == 1, 'process only the first conversations'
     conversations = sources[0]
@@ -729,6 +730,11 @@ def preprocess_internvl2_5(
         conv = get_conv_template(template_name)
         system_prompt = conv.system_message
         # system_prompt = None
+
+    for conversation in conversations:
+        if conversation['from'] == 'human':
+            input_ids_clip = clip_tokenizer(conversation['value'].replace('<image>\n', '', 1))
+            break
 
     if not text_only:
         new_conversations = []
@@ -807,6 +813,7 @@ def preprocess_internvl2_5(
         input_ids=input_ids,
         labels=targets,
         attention_mask=input_ids.ne(tokenizer.pad_token_id),
+        input_ids_clip=input_ids_clip
     )
 
 

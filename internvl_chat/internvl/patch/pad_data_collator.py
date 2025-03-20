@@ -106,7 +106,7 @@ def concat_pad_data_collator(features, max_item_length=None, pad_id=0):
                 batch[k] = torch.tensor(np.stack([f[k] for f in features]))
             else:
                 batch[k] = torch.tensor([f[k] for f in features])
-        if k in ('pixel_values', 'image_flags'):
+        if k in ('pixel_values', 'image_flags', 'pixel_values_clip'):
             if isinstance(v, torch.Tensor):
                 batch[k] = torch.concat([f[k] for f in features])
             elif isinstance(v, np.ndarray):

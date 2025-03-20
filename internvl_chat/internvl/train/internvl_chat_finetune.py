@@ -297,12 +297,16 @@ class LazySupervisedDataset(Dataset):
         distributed_mode=False,
         force_shuffle=False,
         random_seed=0,
+        clip_tokenizer=None,
+        clip_preprocess=None,
     ):
         super(LazySupervisedDataset, self).__init__()
         self.ds_name = ds_name
         self.tokenizer = tokenizer
         self.template_name = template_name
         self.num_image_token = num_image_token
+        self.clip_tokenizer = clip_tokenizer
+        self.clip_preprocess = clip_preprocess
         logger.info(f'[Dataset] num_image_token: {num_image_token}')
         logger.info(f'[Dataset] dynamic_image_size: {dynamic_image_size}')
         logger.info(f'[Dataset] use_thumbnail: {use_thumbnail}')
@@ -440,6 +444,16 @@ class LazySupervisedDataset(Dataset):
         # Apply the transformation to each image and stack the results into a tensor
         pixel_values = [transform(image) for image in images]
         pixel_values = torch.stack(pixel_values)
+        # Extract 4 tiles of size 224x224 from each 448x448 image
+        assert pixel_values.shape[2]==pixel_values.shape[3]==448, f'Tile size of InternVl should be 448, but got {pixel_values.shape[2]}'
+        tiles = []
+        for image in images[:-1] if len(images) > 1 and self.use_thumbnail else images:
+            tiles.append(image.crop((0, 0, 224, 224)))  # Top-left
+            tiles.append(image.crop((224, 0, 448, 224)))  # Top-right
+            tiles.append(image.crop((0, 224, 224, 448)))  # Bottom-left
+            tiles.append(image.crop((224, 224, 448, 448)))  # Bottom-right
+        pixel_values_clip = [self.clip_preprocess(tile) for tile in tiles]
+        pixel_values_clip = torch.stack(pixel_values_clip)
 
         # Ensure that there is only one patch if dynamic image size is not enabled
         num_patches = pixel_values.size(0)
@@ -453,7 +467,8 @@ class LazySupervisedDataset(Dataset):
         ret = preprocess_function(self.template_name, [deepcopy(data_item['conversations'])],
                                   self.tokenizer, [self.num_image_token * num_patches],
                                   group_by_length=self.group_by_length,
-                                  use_packed_ds=self.use_packed_ds, ds_name=self.ds_name)
+                                  use_packed_ds=self.use_packed_ds, ds_name=self.ds_name,
+                                  clip_tokenizer=self.clip_tokenizer)
 
         # Calculate position_ids for packed dataset
         position_ids = ret['attention_mask'].long().cumsum(-1) - 1
@@ -468,7 +483,9 @@ class LazySupervisedDataset(Dataset):
             attention_mask=ret['attention_mask'][0],
             position_ids=position_ids[0],
             pixel_values=pixel_values,
-            image_flags=torch.tensor([1] * num_patches, dtype=torch.long)
+            image_flags=torch.tensor([1] * num_patches, dtype=torch.long),
+            input_ids_clip=ret['input_ids_clip'][0],
+            pixel_values_clip=pixel_values_clip
         )
         return ret
 
@@ -711,6 +728,8 @@ def build_datasets(
     min_num_frame=8,
     max_num_frame=32,
     normalize_type='imagenet',
+    clip_tokenizer=None,
+    clip_preprocess=None,
 ):
     datasets = []
     lengths = []
@@ -749,6 +768,8 @@ def build_datasets(
             distributed_mode=data_args.use_packed_ds,
             force_shuffle=data_args.use_packed_ds,
             random_seed=ds_idx,
+            clip_tokenizer=clip_tokenizer,
+            clip_preprocess=clip_preprocess,
         )
         logger.info(f'Add dataset: {ds_name} with length: {len(dataset)}')
         datasets.append(dataset)
