@@ -736,8 +736,14 @@ def build_datasets(
     data_rank = dist.get_rank()
     data_world_size = dist.get_world_size()
     ds_collections = json.loads(open(data_args.meta_path).read())
+    dataset_dir = os.path.dirname(data_args.meta_path)
     for ds_idx, ds_name in enumerate(ds_collections.keys()):
+        if not os.path.exists(os.path.join(dataset_dir, ds_collections[ds_name]['root'])):
+            logger.warning(f'{ds_name} root path does not exist, skip this dataset')
+            continue
         repeat_time = ds_collections[ds_name]['repeat_time']
+        ds_collections[ds_name]['root'] = os.path.join(dataset_dir, ds_collections[ds_name]['root'])
+        ds_collections[ds_name]['annotation'] = os.path.join(dataset_dir, ds_collections[ds_name]['annotation'])
         if 'max_dynamic_patch' in ds_collections[ds_name]:
             max_num = ds_collections[ds_name]['max_dynamic_patch']
             logger.info(f'max_dynamic_patch is set to {max_num} according to the meta file')
