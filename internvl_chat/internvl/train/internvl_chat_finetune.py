@@ -264,6 +264,10 @@ class DataTrainingArguments:
         default=False,
         metadata={'help': 'Whether to gather all during loss reduction. Default is False.'},
     )
+    val_split_ratio: float = field(
+        default=0.1,
+        metadata={'help': 'Set the desired train/val dataset split ratio. Default is 0.1.'},
+    )
 
 
 class LazySupervisedDataset(Dataset):
@@ -731,10 +735,16 @@ def build_datasets(
     clip_tokenizer=None,
     clip_preprocess=None,
 ):
+    
+    if dist.is_available() and dist.is_initialized():
+        data_rank = dist.get_rank()
+        data_world_size = dist.get_world_size()
+    else:
+        data_rank = 0
+        data_world_size = 1
+    
     datasets = []
     lengths = []
-    data_rank = dist.get_rank()
-    data_world_size = dist.get_world_size()
     ds_collections = json.loads(open(data_args.meta_path).read())
     dataset_dir = os.path.dirname(data_args.meta_path)
     for ds_idx, ds_name in enumerate(ds_collections.keys()):
