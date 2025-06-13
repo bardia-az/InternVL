@@ -61,6 +61,9 @@ from transformers.trainer_utils import get_last_checkpoint
 from transformers.utils.logging import (enable_default_handler,
                                         enable_explicit_format, set_verbosity)
 
+from multimodal_coding.utils.utils import split_patches_into_quadrants
+
+
 # Try to import petrel_client for image loading, fallback to PIL if unavailable
 try:
     from petrel_client.client import Client
@@ -450,12 +453,7 @@ class LazySupervisedDataset(Dataset):
         pixel_values = torch.stack(pixel_values)
         # Extract 4 tiles of size 224x224 from each 448x448 image
         assert pixel_values.shape[2]==pixel_values.shape[3]==448, f'Tile size of InternVl should be 448, but got {pixel_values.shape[2]}'
-        tiles = []
-        for image in images[:-1] if len(images) > 1 and self.use_thumbnail else images:
-            tiles.append(image.crop((0, 0, 224, 224)))  # Top-left
-            tiles.append(image.crop((224, 0, 448, 224)))  # Top-right
-            tiles.append(image.crop((0, 224, 224, 448)))  # Bottom-left
-            tiles.append(image.crop((224, 224, 448, 448)))  # Bottom-right
+        tiles = split_patches_into_quadrants(images, self.use_thumbnail)
         pixel_values_clip = [self.clip_preprocess(tile) for tile in tiles]
         pixel_values_clip = torch.stack(pixel_values_clip)
 
