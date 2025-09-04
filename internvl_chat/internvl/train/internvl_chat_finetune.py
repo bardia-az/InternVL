@@ -61,7 +61,7 @@ from transformers.trainer_utils import get_last_checkpoint
 from transformers.utils.logging import (enable_default_handler,
                                         enable_explicit_format, set_verbosity)
 
-from multimodal_coding.utils.utils import split_patches_into_quadrants
+from multimodal_coding.data.utils import split_patches_into_quadrants
 
 
 # Try to import petrel_client for image loading, fallback to PIL if unavailable
