@@ -1,11 +1,20 @@
 import argparse
 import os
+from pathlib import Path
+import json
 
 from sklearn.metrics import (accuracy_score, confusion_matrix, precision_score,
                              recall_score)
 
+from multimodal_coding.utils.utils import update_json_file
+
+
+FILE = Path(__file__).resolve()
+MME_ROOT = FILE.parents[0]
+
 parser = argparse.ArgumentParser()
 parser.add_argument('--results_dir', default='./LaVIN', type=str)
+parser.add_argument('--json-result-path', type=str, default=str(MME_ROOT / 'results.json'))
 
 eval_type_dict = {
     'Perception': ['existence', 'count', 'position', 'color', 'posters', 'celebrity', 'scene', 'landmark', 'artwork', 'OCR'],
@@ -81,7 +90,12 @@ class calculate_metrics:
 
         return metric_dict
 
-    def process_result(self, results_dir):
+    def process_result(self, results_dir, json_file):
+        model_id = os.path.basename(results_dir)
+        self.data = dict()
+        with open(json_file, "r") as f:
+            data = json.load(f)
+        self.data = data.get(model_id)
 
         model_score_dict = dict()
         for eval_type, task_name_list in eval_type_dict.items():
@@ -146,11 +160,42 @@ class calculate_metrics:
 
                 scores += task_score
 
+            task_score_dict[eval_type] = scores
+            self.save_results(task_score_dict)
             print('total score:', scores, '\n')
             for task_name, score in task_score_dict.items():
                 print('\t', task_name, ' score:', score)
             print('\n')
+        self.save_results_json(json_file, model_id)
+        return
 
+    def save_results(self, task_score_dict):
+        orig_bpp = 0.0
+        compressed_bpp = 0.0
+        count = 0
+        for k, v in task_score_dict.items():
+            if k in self.data:
+                orig_bpp += self.data[k]['orig_bpp'] * self.data[k]['count']
+                compressed_bpp += self.data[k]['compressed_bpp'] * self.data[k]['count']
+                count += self.data[k]['count']
+                self.data[k]['score'] = v
+            else:
+                self.data[k] = {'orig_bpp': orig_bpp/count, 'compressed_bpp': compressed_bpp/count, 'count': count, 'score': v}
+
+    def save_results_json(self, json_file, model_id):
+        self.data['Total'] = {}
+        self.data['Total']['orig_bpp'] = (self.data['Perception']['orig_bpp'] * self.data['Perception']['count'] + \
+                                                    self.data['Cognition']['orig_bpp'] * self.data['Cognition']['count']) / \
+                                                    (self.data['Perception']['count'] + self.data['Cognition']['count'])
+        self.data['Total']['compressed_bpp'] = (self.data['Perception']['compressed_bpp'] * self.data['Perception']['count'] + \
+                                                        self.data['Cognition']['compressed_bpp'] * self.data['Cognition']['count']) / \
+                                                        (self.data['Perception']['count'] + self.data['Cognition']['count'])
+        self.data['Total']['count'] = self.data['Perception']['count'] + self.data['Cognition']['count']
+        self.data['Total']['score'] = self.data['Perception']['score'] + self.data['Cognition']['score']
+
+        data = {model_id: self.data}
+
+        update_json_file(json_file, data)
         return
 
 
@@ -159,4 +204,5 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
     results_dir = args.results_dir
-    cal.process_result(results_dir)
+    json_file = args.json_result_path
+    cal.process_result(results_dir, json_file)
