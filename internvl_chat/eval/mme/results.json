@@ -1,0 +1,4502 @@
+{
+    "InternVL2_5-1B-compress_0-method_exponential-prefilter_0-prescale_50.0-sigmamin_0.5-sigmamax_10.0-ksize_11": {
+        "hparams": {
+            "top-k": 50,
+            "top-p": 0.9,
+            "sample": false,
+            "dynamic": true,
+            "max_num": 6,
+            "load-in-8bit": false,
+            "load-in-4bit": false,
+            "auto": false,
+            "prefilter": false,
+            "compress-ratio": 0,
+            "sigma_min": 0.5,
+            "sigma_max": 10.0,
+            "method": "exponential",
+            "ksize": 11,
+            "prescale": 50.0,
+            "clip_arch": "TinyCLIP-ViT-39M-16-Text-19M",
+            "clip_pretrained": "YFCC15M",
+            "image_size": 448,
+            "use_thumbnail": true
+        },
+        "OCR": {
+            "orig_bpp": 1.6101320956466119,
+            "compressed_bpp": 0.0,
+            "count": 40,
+            "score": 170.0
+        },
+        "numerical_calculation": {
+            "orig_bpp": 10.389238591603382,
+            "compressed_bpp": 0.0,
+            "count": 40,
+            "score": 65.0
+        },
+        "position": {
+            "orig_bpp": 1.3929193986873358,
+            "compressed_bpp": 0.0,
+            "count": 60,
+            "score": 153.33333333333334
+        },
+        "count": {
+            "orig_bpp": 1.5342940777051297,
+            "compressed_bpp": 0.0,
+            "count": 60,
+            "score": 141.66666666666666
+        },
+        "existence": {
+            "orig_bpp": 1.4499108710879411,
+            "compressed_bpp": 0.0,
+            "count": 60,
+            "score": 190.0
+        },
+        "scene": {
+            "orig_bpp": 1.3626296089392096,
+            "compressed_bpp": 0.0,
+            "count": 400,
+            "score": 160.5
+        },
+        "text_translation": {
+            "orig_bpp": 0.9736230536580891,
+            "compressed_bpp": 0.0,
+            "count": 40,
+            "score": 192.5
+        },
+        "artwork": {
+            "orig_bpp": 1.2778152194837902,
+            "compressed_bpp": 0.0,
+            "count": 400,
+            "score": 150.5
+        },
+        "code_reasoning": {
+            "orig_bpp": 1.4328898885852168,
+            "compressed_bpp": 0.0,
+            "count": 40,
+            "score": 87.5
+        },
+        "color": {
+            "orig_bpp": 1.5330678235466546,
+            "compressed_bpp": 0.0,
+            "count": 60,
+            "score": 145.0
+        },
+        "landmark": {
+            "orig_bpp": 3.205753468443279,
+            "compressed_bpp": 0.0,
+            "count": 400,
+            "score": 150.25
+        },
+        "posters": {
+            "orig_bpp": 1.6090259405679035,
+            "compressed_bpp": 0.0,
+            "count": 294,
+            "score": 124.82993197278913
+        },
+        "celebrity": {
+            "orig_bpp": 2.5140379716320926,
+            "compressed_bpp": 0.0,
+            "count": 340,
+            "score": 145.2941176470588
+        },
+        "commonsense_reasoning": {
+            "orig_bpp": 7.5279056695127675,
+            "compressed_bpp": 0.0,
+            "count": 140,
+            "score": 111.42857142857142
+        },
+        "Perception": {
+            "orig_bpp": 1.9325083584275662,
+            "compressed_bpp": 0.0,
+            "count": 2114,
+            "score": 1531.374049619848
+        },
+        "Cognition": {
+            "orig_bpp": 6.022064827252519,
+            "compressed_bpp": 0.0,
+            "count": 260,
+            "score": 456.42857142857144
+        },
+        "Total": {
+            "orig_bpp": 2.380395756024233,
+            "compressed_bpp": 0.0,
+            "count": 2374,
+            "score": 1987.8026210484195
+        }
+    },
+    "InternVL2_5-1B-compress_10-method_exponential-prefilter_0-prescale_50.0-sigmamin_0.5-sigmamax_10.0-ksize_11": {
+        "hparams": {
+            "top-k": 50,
+            "top-p": 0.9,
+            "sample": false,
+            "dynamic": true,
+            "max_num": 6,
+            "load-in-8bit": false,
+            "load-in-4bit": false,
+            "auto": false,
+            "prefilter": false,
+            "compress-ratio": 10,
+            "sigma_min": 0.5,
+            "sigma_max": 10.0,
+            "method": "exponential",
+            "ksize": 11,
+            "prescale": 50.0,
+            "clip_arch": "TinyCLIP-ViT-39M-16-Text-19M",
+            "clip_pretrained": "YFCC15M",
+            "image_size": 448,
+            "use_thumbnail": true
+        },
+        "OCR": {
+            "orig_bpp": 1.6101320956466119,
+            "compressed_bpp": 0.44546872051826164,
+            "count": 40,
+            "score": 170.0
+        },
+        "numerical_calculation": {
+            "orig_bpp": 10.389238591603382,
+            "compressed_bpp": 0.43402513750336424,
+            "count": 40,
+            "score": 70.0
+        },
+        "position": {
+            "orig_bpp": 1.3929193986873358,
+            "compressed_bpp": 0.3536379091993394,
+            "count": 60,
+            "score": 151.66666666666669
+        },
+        "count": {
+            "orig_bpp": 1.5342940777051297,
+            "compressed_bpp": 0.3722577298853439,
+            "count": 60,
+            "score": 136.66666666666669
+        },
+        "existence": {
+            "orig_bpp": 1.4499108710879411,
+            "compressed_bpp": 0.3560620980783174,
+            "count": 60,
+            "score": 185.0
+        },
+        "scene": {
+            "orig_bpp": 1.3626296089392096,
+            "compressed_bpp": 0.348430096082175,
+            "count": 400,
+            "score": 163.0
+        },
+        "text_translation": {
+            "orig_bpp": 0.9736230536580891,
+            "compressed_bpp": 0.816664016170131,
+            "count": 40,
+            "score": 185.0
+        },
+        "artwork": {
+            "orig_bpp": 1.2778152194837902,
+            "compressed_bpp": 0.3171438107668697,
+            "count": 400,
+            "score": 148.5
+        },
+        "code_reasoning": {
+            "orig_bpp": 1.4328898885852168,
+            "compressed_bpp": 0.3506232953867711,
+            "count": 40,
+            "score": 100.0
+        },
+        "color": {
+            "orig_bpp": 1.5330678235466546,
+            "compressed_bpp": 0.37196137743323976,
+            "count": 60,
+            "score": 143.33333333333331
+        },
+        "landmark": {
+            "orig_bpp": 3.205753468443279,
+            "compressed_bpp": 0.2684078363115851,
+            "count": 400,
+            "score": 138.0
+        },
+        "posters": {
+            "orig_bpp": 1.6090259405679035,
+            "compressed_bpp": 0.35217707253970526,
+            "count": 294,
+            "score": 121.7687074829932
+        },
+        "celebrity": {
+            "orig_bpp": 2.5140379716320926,
+            "compressed_bpp": 0.30827703224117925,
+            "count": 340,
+            "score": 130.58823529411765
+        },
+        "commonsense_reasoning": {
+            "orig_bpp": 7.5279056695127675,
+            "compressed_bpp": 0.25893822354692037,
+            "count": 140,
+            "score": 112.14285714285714
+        },
+        "Perception": {
+            "orig_bpp": 1.9325083584275662,
+            "compressed_bpp": 0.3249767470432503,
+            "count": 2114,
+            "score": 1488.5236094437778
+        },
+        "Cognition": {
+            "orig_bpp": 6.022064827252519,
+            "compressed_bpp": 0.3857840356114597,
+            "count": 260,
+            "score": 467.1428571428571
+        },
+        "Total": {
+            "orig_bpp": 2.380395756024233,
+            "compressed_bpp": 0.3316363489925908,
+            "count": 2374,
+            "score": 1955.666466586635
+        }
+    },
+    "InternVL2_5-1B-compress_20-method_exponential-prefilter_0-prescale_50.0-sigmamin_0.5-sigmamax_10.0-ksize_11": {
+        "hparams": {
+            "top-k": 50,
+            "top-p": 0.9,
+            "sample": false,
+            "dynamic": true,
+            "max_num": 6,
+            "load-in-8bit": false,
+            "load-in-4bit": false,
+            "auto": false,
+            "prefilter": false,
+            "compress-ratio": 20,
+            "sigma_min": 0.5,
+            "sigma_max": 10.0,
+            "method": "exponential",
+            "ksize": 11,
+            "prescale": 50.0,
+            "clip_arch": "TinyCLIP-ViT-39M-16-Text-19M",
+            "clip_pretrained": "YFCC15M",
+            "image_size": 448,
+            "use_thumbnail": true
+        },
+        "OCR": {
+            "orig_bpp": 1.6101320956466119,
+            "compressed_bpp": 0.6500538537609584,
+            "count": 40,
+            "score": 170.0
+        },
+        "numerical_calculation": {
+            "orig_bpp": 10.389238591603382,
+            "compressed_bpp": 0.5368259144616602,
+            "count": 40,
+            "score": 70.0
+        },
+        "position": {
+            "orig_bpp": 1.3929193986873358,
+            "compressed_bpp": 0.5279421007713421,
+            "count": 60,
+            "score": 148.33333333333331
+        },
+        "count": {
+            "orig_bpp": 1.5342940777051297,
+            "compressed_bpp": 0.5688590752188675,
+            "count": 60,
+            "score": 133.33333333333334
+        },
+        "existence": {
+            "orig_bpp": 1.4499108710879411,
+            "compressed_bpp": 0.5329666759074762,
+            "count": 60,
+            "score": 185.0
+        },
+        "scene": {
+            "orig_bpp": 1.3626296089392096,
+            "compressed_bpp": 0.5202586561456232,
+            "count": 400,
+            "score": 160.25
+        },
+        "text_translation": {
+            "orig_bpp": 0.9736230536580891,
+            "compressed_bpp": 1.03331548651133,
+            "count": 40,
+            "score": 192.5
+        },
+        "artwork": {
+            "orig_bpp": 1.2778152194837902,
+            "compressed_bpp": 0.5440530696741703,
+            "count": 400,
+            "score": 152.0
+        },
+        "code_reasoning": {
+            "orig_bpp": 1.4328898885852168,
+            "compressed_bpp": 0.4377091473412259,
+            "count": 40,
+            "score": 82.5
+        },
+        "color": {
+            "orig_bpp": 1.5330678235466546,
+            "compressed_bpp": 0.5640515669079094,
+            "count": 60,
+            "score": 160.0
+        },
+        "landmark": {
+            "orig_bpp": 3.205753468443279,
+            "compressed_bpp": 0.3962262855844106,
+            "count": 400,
+            "score": 143.25
+        },
+        "posters": {
+            "orig_bpp": 1.6090259405679035,
+            "compressed_bpp": 0.5247155031205988,
+            "count": 294,
+            "score": 121.42857142857142
+        },
+        "celebrity": {
+            "orig_bpp": 2.5140379716320926,
+            "compressed_bpp": 0.4269946183266921,
+            "count": 340,
+            "score": 145.88235294117646
+        },
+        "commonsense_reasoning": {
+            "orig_bpp": 7.5279056695127675,
+            "compressed_bpp": 0.3619224990042314,
+            "count": 140,
+            "score": 117.14285714285714
+        },
+        "Perception": {
+            "orig_bpp": 1.9325083584275662,
+            "compressed_bpp": 0.49256908797965326,
+            "count": 2114,
+            "score": 1519.4775910364147
+        },
+        "Cognition": {
+            "orig_bpp": 6.022064827252519,
+            "compressed_bpp": 0.5037814299736962,
+            "count": 260,
+            "score": 462.1428571428571
+        },
+        "Total": {
+            "orig_bpp": 2.380395756024233,
+            "compressed_bpp": 0.493797061407813,
+            "count": 2374,
+            "score": 1981.6204481792718
+        }
+    },
+    "InternVL2_5-1B-compress_40-method_exponential-prefilter_0-prescale_50.0-sigmamin_0.5-sigmamax_10.0-ksize_11": {
+        "hparams": {
+            "top-k": 50,
+            "top-p": 0.9,
+            "sample": false,
+            "dynamic": true,
+            "max_num": 6,
+            "load-in-8bit": false,
+            "load-in-4bit": false,
+            "auto": false,
+            "prefilter": false,
+            "compress-ratio": 40,
+            "sigma_min": 0.5,
+            "sigma_max": 10.0,
+            "method": "exponential",
+            "ksize": 11,
+            "prescale": 50.0,
+            "clip_arch": "TinyCLIP-ViT-39M-16-Text-19M",
+            "clip_pretrained": "YFCC15M",
+            "image_size": 448,
+            "use_thumbnail": true
+        },
+        "OCR": {
+            "orig_bpp": 1.6101320956466119,
+            "compressed_bpp": 0.9231807288986758,
+            "count": 40,
+            "score": 162.5
+        },
+        "numerical_calculation": {
+            "orig_bpp": 10.389238591603382,
+            "compressed_bpp": 0.7589361962280817,
+            "count": 40,
+            "score": 62.5
+        },
+        "position": {
+            "orig_bpp": 1.3929193986873358,
+            "compressed_bpp": 0.7617636294612783,
+            "count": 60,
+            "score": 146.66666666666666
+        },
+        "count": {
+            "orig_bpp": 1.5342940777051297,
+            "compressed_bpp": 0.83922499554177,
+            "count": 60,
+            "score": 131.66666666666666
+        },
+        "existence": {
+            "orig_bpp": 1.4499108710879411,
+            "compressed_bpp": 0.7780473542853674,
+            "count": 60,
+            "score": 195.0
+        },
+        "scene": {
+            "orig_bpp": 1.3626296089392096,
+            "compressed_bpp": 0.7479411648291574,
+            "count": 400,
+            "score": 162.0
+        },
+        "text_translation": {
+            "orig_bpp": 0.9736230536580891,
+            "compressed_bpp": 1.3565113565619036,
+            "count": 40,
+            "score": 192.5
+        },
+        "artwork": {
+            "orig_bpp": 1.2778152194837902,
+            "compressed_bpp": 1.0401010275591827,
+            "count": 400,
+            "score": 149.25
+        },
+        "code_reasoning": {
+            "orig_bpp": 1.4328898885852168,
+            "compressed_bpp": 0.5660156018681637,
+            "count": 40,
+            "score": 92.5
+        },
+        "color": {
+            "orig_bpp": 1.5330678235466546,
+            "compressed_bpp": 0.8273738544601728,
+            "count": 60,
+            "score": 155.0
+        },
+        "landmark": {
+            "orig_bpp": 3.205753468443279,
+            "compressed_bpp": 0.5991040822977339,
+            "count": 400,
+            "score": 146.5
+        },
+        "posters": {
+            "orig_bpp": 1.6090259405679035,
+            "compressed_bpp": 0.7991747797930026,
+            "count": 294,
+            "score": 123.12925170068027
+        },
+        "celebrity": {
+            "orig_bpp": 2.5140379716320926,
+            "compressed_bpp": 0.6134427468259812,
+            "count": 340,
+            "score": 145.2941176470588
+        },
+        "commonsense_reasoning": {
+            "orig_bpp": 7.5279056695127675,
+            "compressed_bpp": 0.5153123096502783,
+            "count": 140,
+            "score": 105.71428571428572
+        },
+        "Perception": {
+            "orig_bpp": 1.9325083584275662,
+            "compressed_bpp": 0.7699613283988971,
+            "count": 2114,
+            "score": 1517.0067026810723
+        },
+        "Cognition": {
+            "orig_bpp": 6.022064827252519,
+            "compressed_bpp": 0.6900086520667882,
+            "count": 260,
+            "score": 453.2142857142857
+        },
+        "Total": {
+            "orig_bpp": 2.380395756024233,
+            "compressed_bpp": 0.7612049274526678,
+            "count": 2374,
+            "score": 1970.220988395358
+        }
+    },
+    "InternVL2_5-1B-compress_60-method_exponential-prefilter_0-prescale_50.0-sigmamin_0.5-sigmamax_10.0-ksize_11": {
+        "hparams": {
+            "top-k": 50,
+            "top-p": 0.9,
+            "sample": false,
+            "dynamic": true,
+            "max_num": 6,
+            "load-in-8bit": false,
+            "load-in-4bit": false,
+            "auto": false,
+            "prefilter": false,
+            "compress-ratio": 60,
+            "sigma_min": 0.5,
+            "sigma_max": 10.0,
+            "method": "exponential",
+            "ksize": 11,
+            "prescale": 50.0,
+            "clip_arch": "TinyCLIP-ViT-39M-16-Text-19M",
+            "clip_pretrained": "YFCC15M",
+            "image_size": 448,
+            "use_thumbnail": true
+        },
+        "OCR": {
+            "orig_bpp": 1.6101320956466119,
+            "compressed_bpp": 1.4020219211599865,
+            "count": 40,
+            "score": 170.0
+        },
+        "numerical_calculation": {
+            "orig_bpp": 10.389238591603382,
+            "compressed_bpp": 0.9751690334178569,
+            "count": 40,
+            "score": 62.5
+        },
+        "position": {
+            "orig_bpp": 1.3929193986873358,
+            "compressed_bpp": 1.2373224026270726,
+            "count": 60,
+            "score": 141.66666666666666
+        },
+        "count": {
+            "orig_bpp": 1.5342940777051297,
+            "compressed_bpp": 1.35966955282131,
+            "count": 60,
+            "score": 141.66666666666666
+        },
+        "existence": {
+            "orig_bpp": 1.4499108710879411,
+            "compressed_bpp": 1.2928019555931576,
+            "count": 60,
+            "score": 195.0
+        },
+        "scene": {
+            "orig_bpp": 1.3626296089392096,
+            "compressed_bpp": 1.212730046293627,
+            "count": 400,
+            "score": 162.75
+        },
+        "text_translation": {
+            "orig_bpp": 0.9736230536580891,
+            "compressed_bpp": 1.6277769672551432,
+            "count": 40,
+            "score": 192.5
+        },
+        "artwork": {
+            "orig_bpp": 1.2778152194837902,
+            "compressed_bpp": 1.1978817804002788,
+            "count": 400,
+            "score": 150.0
+        },
+        "code_reasoning": {
+            "orig_bpp": 1.4328898885852168,
+            "compressed_bpp": 0.6780911619187371,
+            "count": 40,
+            "score": 97.5
+        },
+        "color": {
+            "orig_bpp": 1.5330678235466546,
+            "compressed_bpp": 1.3600794929573354,
+            "count": 60,
+            "score": 150.0
+        },
+        "landmark": {
+            "orig_bpp": 3.205753468443279,
+            "compressed_bpp": 0.7940385873794135,
+            "count": 400,
+            "score": 150.0
+        },
+        "posters": {
+            "orig_bpp": 1.6090259405679035,
+            "compressed_bpp": 1.0327019472715309,
+            "count": 294,
+            "score": 124.82993197278913
+        },
+        "celebrity": {
+            "orig_bpp": 2.5140379716320926,
+            "compressed_bpp": 0.7931307283317304,
+            "count": 340,
+            "score": 143.52941176470588
+        },
+        "commonsense_reasoning": {
+            "orig_bpp": 7.5279056695127675,
+            "compressed_bpp": 0.6513846172459573,
+            "count": 140,
+            "score": 107.85714285714286
+        },
+        "Perception": {
+            "orig_bpp": 1.9325083584275662,
+            "compressed_bpp": 1.0530805425006045,
+            "count": 2114,
+            "score": 1529.4426770708283
+        },
+        "Cognition": {
+            "orig_bpp": 6.022064827252519,
+            "compressed_bpp": 0.855520511223475,
+            "count": 260,
+            "score": 460.3571428571429
+        },
+        "Total": {
+            "orig_bpp": 2.380395756024233,
+            "compressed_bpp": 1.0314438078198742,
+            "count": 2374,
+            "score": 1989.7998199279712
+        }
+    },
+    "InternVL2_5-1B-compress_80-method_exponential-prefilter_0-prescale_50.0-sigmamin_0.5-sigmamax_10.0-ksize_11": {
+        "hparams": {
+            "top-k": 50,
+            "top-p": 0.9,
+            "sample": false,
+            "dynamic": true,
+            "max_num": 6,
+            "load-in-8bit": false,
+            "load-in-4bit": false,
+            "auto": false,
+            "prefilter": false,
+            "compress-ratio": 80,
+            "sigma_min": 0.5,
+            "sigma_max": 10.0,
+            "method": "exponential",
+            "ksize": 11,
+            "prescale": 50.0,
+            "clip_arch": "TinyCLIP-ViT-39M-16-Text-19M",
+            "clip_pretrained": "YFCC15M",
+            "image_size": 448,
+            "use_thumbnail": true
+        },
+        "OCR": {
+            "orig_bpp": 1.6101320956466119,
+            "compressed_bpp": 1.697176188760962,
+            "count": 40,
+            "score": 170.0
+        },
+        "numerical_calculation": {
+            "orig_bpp": 10.389238591603382,
+            "compressed_bpp": 1.4172618349962225,
+            "count": 40,
+            "score": 72.5
+        },
+        "position": {
+            "orig_bpp": 1.3929193986873358,
+            "compressed_bpp": 1.4690128968294087,
+            "count": 60,
+            "score": 148.33333333333331
+        },
+        "count": {
+            "orig_bpp": 1.5342940777051297,
+            "compressed_bpp": 1.6196357655739984,
+            "count": 60,
+            "score": 136.66666666666669
+        },
+        "existence": {
+            "orig_bpp": 1.4499108710879411,
+            "compressed_bpp": 1.5269366414356036,
+            "count": 60,
+            "score": 190.0
+        },
+        "scene": {
+            "orig_bpp": 1.3626296089392096,
+            "compressed_bpp": 1.4390868610500434,
+            "count": 400,
+            "score": 161.25
+        },
+        "text_translation": {
+            "orig_bpp": 0.9736230536580891,
+            "compressed_bpp": 2.144023311384976,
+            "count": 40,
+            "score": 192.5
+        },
+        "artwork": {
+            "orig_bpp": 1.2778152194837902,
+            "compressed_bpp": 1.5901272394091137,
+            "count": 400,
+            "score": 151.5
+        },
+        "code_reasoning": {
+            "orig_bpp": 1.4328898885852168,
+            "compressed_bpp": 0.8965577373117067,
+            "count": 40,
+            "score": 90.0
+        },
+        "color": {
+            "orig_bpp": 1.5330678235466546,
+            "compressed_bpp": 1.6159227701499432,
+            "count": 60,
+            "score": 140.0
+        },
+        "landmark": {
+            "orig_bpp": 3.205753468443279,
+            "compressed_bpp": 1.2295150233581273,
+            "count": 400,
+            "score": 150.75
+        },
+        "posters": {
+            "orig_bpp": 1.6090259405679035,
+            "compressed_bpp": 1.4674294107556696,
+            "count": 294,
+            "score": 126.19047619047618
+        },
+        "celebrity": {
+            "orig_bpp": 2.5140379716320926,
+            "compressed_bpp": 1.1838412497414506,
+            "count": 340,
+            "score": 146.1764705882353
+        },
+        "commonsense_reasoning": {
+            "orig_bpp": 7.5279056695127675,
+            "compressed_bpp": 0.9334708907496079,
+            "count": 140,
+            "score": 112.14285714285714
+        },
+        "Perception": {
+            "orig_bpp": 1.9325083584275662,
+            "compressed_bpp": 1.4092712645179517,
+            "count": 2114,
+            "score": 1520.8669467787115
+        },
+        "Cognition": {
+            "orig_bpp": 6.022064827252519,
+            "compressed_bpp": 1.1884601540486974,
+            "count": 260,
+            "score": 467.1428571428571
+        },
+        "Total": {
+            "orig_bpp": 2.380395756024233,
+            "compressed_bpp": 1.3850880763452447,
+            "count": 2374,
+            "score": 1988.0098039215686
+        }
+    },
+    "InternVL2_5-1B-compress_0-method_exponential-prefilter_1-prescale_50.0-sigmamin_0.5-sigmamax_10.0-ksize_11": {
+        "hparams": {
+            "top-k": 50,
+            "top-p": 0.9,
+            "sample": false,
+            "dynamic": true,
+            "max_num": 6,
+            "load-in-8bit": false,
+            "load-in-4bit": false,
+            "auto": false,
+            "prefilter": true,
+            "compress-ratio": 0,
+            "sigma_min": 0.5,
+            "sigma_max": 10.0,
+            "method": "exponential",
+            "ksize": 11,
+            "prescale": 50.0,
+            "clip_arch": "TinyCLIP-ViT-39M-16-Text-19M",
+            "clip_pretrained": "YFCC15M",
+            "image_size": 448,
+            "use_thumbnail": true
+        },
+        "OCR": {
+            "orig_bpp": 1.6101320956466119,
+            "compressed_bpp": 0.21310202975171136,
+            "count": 40,
+            "score": 125.0
+        },
+        "numerical_calculation": {
+            "orig_bpp": 10.389238591603382,
+            "compressed_bpp": 0.33383481729460784,
+            "count": 40,
+            "score": 77.5
+        },
+        "position": {
+            "orig_bpp": 1.3929193986873358,
+            "compressed_bpp": 0.1729284214306114,
+            "count": 60,
+            "score": 81.66666666666667
+        },
+        "count": {
+            "orig_bpp": 1.5342940777051297,
+            "compressed_bpp": 0.17686334289998468,
+            "count": 60,
+            "score": 106.66666666666666
+        },
+        "existence": {
+            "orig_bpp": 1.4499108710879411,
+            "compressed_bpp": 0.1759205075043741,
+            "count": 60,
+            "score": 170.0
+        },
+        "scene": {
+            "orig_bpp": 1.3626296089392096,
+            "compressed_bpp": 0.1691386119395843,
+            "count": 400,
+            "score": 141.75
+        },
+        "text_translation": {
+            "orig_bpp": 0.9736230536580891,
+            "compressed_bpp": 0.532622587684553,
+            "count": 40,
+            "score": 177.5
+        },
+        "artwork": {
+            "orig_bpp": 1.2778152194837902,
+            "compressed_bpp": 0.15575820307413385,
+            "count": 400,
+            "score": 104.0
+        },
+        "code_reasoning": {
+            "orig_bpp": 1.4328898885852168,
+            "compressed_bpp": 0.23391758873908147,
+            "count": 40,
+            "score": 87.5
+        },
+        "color": {
+            "orig_bpp": 1.5330678235466546,
+            "compressed_bpp": 0.17609601614876008,
+            "count": 60,
+            "score": 78.33333333333334
+        },
+        "landmark": {
+            "orig_bpp": 3.205753468443279,
+            "compressed_bpp": 0.1447905376212089,
+            "count": 400,
+            "score": 125.75
+        },
+        "posters": {
+            "orig_bpp": 1.6090259405679035,
+            "compressed_bpp": 0.17707166949188188,
+            "count": 294,
+            "score": 114.62585034013605
+        },
+        "celebrity": {
+            "orig_bpp": 2.5140379716320926,
+            "compressed_bpp": 0.1953115191899991,
+            "count": 340,
+            "score": 111.17647058823529
+        },
+        "commonsense_reasoning": {
+            "orig_bpp": 7.5279056695127675,
+            "compressed_bpp": 0.1529164115263993,
+            "count": 140,
+            "score": 86.42857142857143
+        },
+        "Perception": {
+            "orig_bpp": 1.9325083584275662,
+            "compressed_bpp": 0.16886116692444464,
+            "count": 2114,
+            "score": 1158.968987595038
+        },
+        "Cognition": {
+            "orig_bpp": 6.022064827252519,
+            "compressed_bpp": 0.25162806677856,
+            "count": 260,
+            "score": 428.92857142857144
+        },
+        "Total": {
+            "orig_bpp": 2.380395756024233,
+            "compressed_bpp": 0.1779257810617951,
+            "count": 2374,
+            "score": 1587.8975590236096
+        }
+    },
+    "InternVL2_5-1B-compress_10-method_exponential-prefilter_1-prescale_50.0-sigmamin_0.5-sigmamax_10.0-ksize_11": {
+        "hparams": {
+            "top-k": 50,
+            "top-p": 0.9,
+            "sample": false,
+            "dynamic": true,
+            "max_num": 6,
+            "load-in-8bit": false,
+            "load-in-4bit": false,
+            "auto": false,
+            "prefilter": true,
+            "compress-ratio": 10,
+            "sigma_min": 0.5,
+            "sigma_max": 10.0,
+            "method": "exponential",
+            "ksize": 11,
+            "prescale": 50.0,
+            "clip_arch": "TinyCLIP-ViT-39M-16-Text-19M",
+            "clip_pretrained": "YFCC15M",
+            "image_size": 448,
+            "use_thumbnail": true
+        },
+        "OCR": {
+            "orig_bpp": 1.6101320956466119,
+            "compressed_bpp": 0.33860125662058754,
+            "count": 40,
+            "score": 155.0
+        },
+        "numerical_calculation": {
+            "orig_bpp": 10.389238591603382,
+            "compressed_bpp": 0.4166993044424431,
+            "count": 40,
+            "score": 67.5
+        },
+        "position": {
+            "orig_bpp": 1.3929193986873358,
+            "compressed_bpp": 0.2651653793509666,
+            "count": 60,
+            "score": 138.33333333333331
+        },
+        "count": {
+            "orig_bpp": 1.5342940777051297,
+            "compressed_bpp": 0.2834894551690272,
+            "count": 60,
+            "score": 141.66666666666666
+        },
+        "existence": {
+            "orig_bpp": 1.4499108710879411,
+            "compressed_bpp": 0.2714266685060001,
+            "count": 60,
+            "score": 185.0
+        },
+        "scene": {
+            "orig_bpp": 1.3626296089392096,
+            "compressed_bpp": 0.27524924590901567,
+            "count": 400,
+            "score": 164.25
+        },
+        "text_translation": {
+            "orig_bpp": 0.9736230536580891,
+            "compressed_bpp": 0.7474098671993867,
+            "count": 40,
+            "score": 185.0
+        },
+        "artwork": {
+            "orig_bpp": 1.2778152194837902,
+            "compressed_bpp": 0.2554461960195809,
+            "count": 400,
+            "score": 140.75
+        },
+        "code_reasoning": {
+            "orig_bpp": 1.4328898885852168,
+            "compressed_bpp": 0.30873243292107616,
+            "count": 40,
+            "score": 102.5
+        },
+        "color": {
+            "orig_bpp": 1.5330678235466546,
+            "compressed_bpp": 0.27640052245548247,
+            "count": 60,
+            "score": 135.0
+        },
+        "landmark": {
+            "orig_bpp": 3.205753468443279,
+            "compressed_bpp": 0.21447237931312813,
+            "count": 400,
+            "score": 136.25
+        },
+        "posters": {
+            "orig_bpp": 1.6090259405679035,
+            "compressed_bpp": 0.2785585899983783,
+            "count": 294,
+            "score": 120.74829931972789
+        },
+        "celebrity": {
+            "orig_bpp": 2.5140379716320926,
+            "compressed_bpp": 0.2762380438406335,
+            "count": 340,
+            "score": 129.11764705882354
+        },
+        "commonsense_reasoning": {
+            "orig_bpp": 7.5279056695127675,
+            "compressed_bpp": 0.2195760858501999,
+            "count": 140,
+            "score": 98.57142857142857
+        },
+        "Perception": {
+            "orig_bpp": 1.9325083584275662,
+            "compressed_bpp": 0.26169217627991515,
+            "count": 2114,
+            "score": 1446.1159463785516
+        },
+        "Cognition": {
+            "orig_bpp": 6.022064827252519,
+            "compressed_bpp": 0.34482429308286244,
+            "count": 260,
+            "score": 453.57142857142856
+        },
+        "Total": {
+            "orig_bpp": 2.380395756024233,
+            "compressed_bpp": 0.2707967889036583,
+            "count": 2374,
+            "score": 1899.68737494998
+        }
+    },
+    "InternVL2_5-1B-compress_20-method_exponential-prefilter_1-prescale_50.0-sigmamin_0.5-sigmamax_10.0-ksize_11": {
+        "hparams": {
+            "top-k": 50,
+            "top-p": 0.9,
+            "sample": false,
+            "dynamic": true,
+            "max_num": 6,
+            "load-in-8bit": false,
+            "load-in-4bit": false,
+            "auto": false,
+            "prefilter": true,
+            "compress-ratio": 20,
+            "sigma_min": 0.5,
+            "sigma_max": 10.0,
+            "method": "exponential",
+            "ksize": 11,
+            "prescale": 50.0,
+            "clip_arch": "TinyCLIP-ViT-39M-16-Text-19M",
+            "clip_pretrained": "YFCC15M",
+            "image_size": 448,
+            "use_thumbnail": true
+        },
+        "OCR": {
+            "orig_bpp": 1.6101320956466119,
+            "compressed_bpp": 0.46557008666338506,
+            "count": 40,
+            "score": 152.5
+        },
+        "numerical_calculation": {
+            "orig_bpp": 10.389238591603382,
+            "compressed_bpp": 0.49753722415815416,
+            "count": 40,
+            "score": 70.0
+        },
+        "position": {
+            "orig_bpp": 1.3929193986873358,
+            "compressed_bpp": 0.3660451952656075,
+            "count": 60,
+            "score": 143.33333333333331
+        },
+        "count": {
+            "orig_bpp": 1.5342940777051297,
+            "compressed_bpp": 0.40478280929142957,
+            "count": 60,
+            "score": 131.66666666666666
+        },
+        "existence": {
+            "orig_bpp": 1.4499108710879411,
+            "compressed_bpp": 0.37743051384293647,
+            "count": 60,
+            "score": 190.0
+        },
+        "scene": {
+            "orig_bpp": 1.3626296089392096,
+            "compressed_bpp": 0.3891276704065728,
+            "count": 400,
+            "score": 166.0
+        },
+        "text_translation": {
+            "orig_bpp": 0.9736230536580891,
+            "compressed_bpp": 0.9384412173088169,
+            "count": 40,
+            "score": 192.5
+        },
+        "artwork": {
+            "orig_bpp": 1.2778152194837902,
+            "compressed_bpp": 0.38175639516383564,
+            "count": 400,
+            "score": 152.25
+        },
+        "code_reasoning": {
+            "orig_bpp": 1.4328898885852168,
+            "compressed_bpp": 0.37424600241515704,
+            "count": 40,
+            "score": 90.0
+        },
+        "color": {
+            "orig_bpp": 1.5330678235466546,
+            "compressed_bpp": 0.3886392590271491,
+            "count": 60,
+            "score": 143.33333333333331
+        },
+        "landmark": {
+            "orig_bpp": 3.205753468443279,
+            "compressed_bpp": 0.2933614642680272,
+            "count": 400,
+            "score": 143.0
+        },
+        "posters": {
+            "orig_bpp": 1.6090259405679035,
+            "compressed_bpp": 0.3867887098378226,
+            "count": 294,
+            "score": 123.12925170068027
+        },
+        "celebrity": {
+            "orig_bpp": 2.5140379716320926,
+            "compressed_bpp": 0.3643998724389235,
+            "count": 340,
+            "score": 139.41176470588235
+        },
+        "commonsense_reasoning": {
+            "orig_bpp": 7.5279056695127675,
+            "compressed_bpp": 0.290275738768507,
+            "count": 140,
+            "score": 104.28571428571429
+        },
+        "Perception": {
+            "orig_bpp": 1.9325083584275662,
+            "compressed_bpp": 0.3661999618586049,
+            "count": 2114,
+            "score": 1484.624349739896
+        },
+        "Cognition": {
+            "orig_bpp": 6.022064827252519,
+            "compressed_bpp": 0.4347983891649081,
+            "count": 260,
+            "score": 456.7857142857143
+        },
+        "Total": {
+            "orig_bpp": 2.380395756024233,
+            "compressed_bpp": 0.37371284774724806,
+            "count": 2374,
+            "score": 1941.4100640256102
+        }
+    },
+    "InternVL2_5-1B-compress_40-method_exponential-prefilter_1-prescale_50.0-sigmamin_0.5-sigmamax_10.0-ksize_11": {
+        "hparams": {
+            "top-k": 50,
+            "top-p": 0.9,
+            "sample": false,
+            "dynamic": true,
+            "max_num": 6,
+            "load-in-8bit": false,
+            "load-in-4bit": false,
+            "auto": false,
+            "prefilter": true,
+            "compress-ratio": 40,
+            "sigma_min": 0.5,
+            "sigma_max": 10.0,
+            "method": "exponential",
+            "ksize": 11,
+            "prescale": 50.0,
+            "clip_arch": "TinyCLIP-ViT-39M-16-Text-19M",
+            "clip_pretrained": "YFCC15M",
+            "image_size": 448,
+            "use_thumbnail": true
+        },
+        "OCR": {
+            "orig_bpp": 1.6101320956466119,
+            "compressed_bpp": 0.6463532027930293,
+            "count": 40,
+            "score": 160.0
+        },
+        "numerical_calculation": {
+            "orig_bpp": 10.389238591603382,
+            "compressed_bpp": 0.6486301331922272,
+            "count": 40,
+            "score": 72.5
+        },
+        "position": {
+            "orig_bpp": 1.3929193986873358,
+            "compressed_bpp": 0.5198046727986397,
+            "count": 60,
+            "score": 163.33333333333334
+        },
+        "count": {
+            "orig_bpp": 1.5342940777051297,
+            "compressed_bpp": 0.5871209580132065,
+            "count": 60,
+            "score": 121.66666666666667
+        },
+        "existence": {
+            "orig_bpp": 1.4499108710879411,
+            "compressed_bpp": 0.5399992803063772,
+            "count": 60,
+            "score": 185.0
+        },
+        "scene": {
+            "orig_bpp": 1.3626296089392096,
+            "compressed_bpp": 0.5571755062773469,
+            "count": 400,
+            "score": 165.75
+        },
+        "text_translation": {
+            "orig_bpp": 0.9736230536580891,
+            "compressed_bpp": 1.2120981164806404,
+            "count": 40,
+            "score": 192.5
+        },
+        "artwork": {
+            "orig_bpp": 1.2778152194837902,
+            "compressed_bpp": 0.604450611992732,
+            "count": 400,
+            "score": 153.0
+        },
+        "code_reasoning": {
+            "orig_bpp": 1.4328898885852168,
+            "compressed_bpp": 0.4703069535274479,
+            "count": 40,
+            "score": 92.5
+        },
+        "color": {
+            "orig_bpp": 1.5330678235466546,
+            "compressed_bpp": 0.5587734707307356,
+            "count": 60,
+            "score": 148.33333333333331
+        },
+        "landmark": {
+            "orig_bpp": 3.205753468443279,
+            "compressed_bpp": 0.418772743691135,
+            "count": 400,
+            "score": 147.0
+        },
+        "posters": {
+            "orig_bpp": 1.6090259405679035,
+            "compressed_bpp": 0.5541658924483225,
+            "count": 294,
+            "score": 122.10884353741497
+        },
+        "celebrity": {
+            "orig_bpp": 2.5140379716320926,
+            "compressed_bpp": 0.5004487027146588,
+            "count": 340,
+            "score": 140.58823529411765
+        },
+        "commonsense_reasoning": {
+            "orig_bpp": 7.5279056695127675,
+            "compressed_bpp": 0.3980855542512121,
+            "count": 140,
+            "score": 110.0
+        },
+        "Perception": {
+            "orig_bpp": 1.9325083584275662,
+            "compressed_bpp": 0.5314252162298652,
+            "count": 2114,
+            "score": 1506.780412164866
+        },
+        "Cognition": {
+            "orig_bpp": 6.022064827252519,
+            "compressed_bpp": 0.572974560473778,
+            "count": 260,
+            "score": 467.5
+        },
+        "Total": {
+            "orig_bpp": 2.380395756024233,
+            "compressed_bpp": 0.5359756920105802,
+            "count": 2374,
+            "score": 1974.280412164866
+        }
+    },
+    "InternVL2_5-1B-compress_60-method_exponential-prefilter_1-prescale_50.0-sigmamin_0.5-sigmamax_10.0-ksize_11": {
+        "hparams": {
+            "top-k": 50,
+            "top-p": 0.9,
+            "sample": false,
+            "dynamic": true,
+            "max_num": 6,
+            "load-in-8bit": false,
+            "load-in-4bit": false,
+            "auto": false,
+            "prefilter": true,
+            "compress-ratio": 60,
+            "sigma_min": 0.5,
+            "sigma_max": 10.0,
+            "method": "exponential",
+            "ksize": 11,
+            "prescale": 50.0,
+            "clip_arch": "TinyCLIP-ViT-39M-16-Text-19M",
+            "clip_pretrained": "YFCC15M",
+            "image_size": 448,
+            "use_thumbnail": true
+        },
+        "OCR": {
+            "orig_bpp": 1.6101320956466119,
+            "compressed_bpp": 0.8649012424394232,
+            "count": 40,
+            "score": 162.5
+        },
+        "numerical_calculation": {
+            "orig_bpp": 10.389238591603382,
+            "compressed_bpp": 0.7956797420087629,
+            "count": 40,
+            "score": 65.0
+        },
+        "position": {
+            "orig_bpp": 1.3929193986873358,
+            "compressed_bpp": 0.6986757027791934,
+            "count": 60,
+            "score": 158.33333333333331
+        },
+        "count": {
+            "orig_bpp": 1.5342940777051297,
+            "compressed_bpp": 0.8098141453205842,
+            "count": 60,
+            "score": 133.33333333333334
+        },
+        "existence": {
+            "orig_bpp": 1.4499108710879411,
+            "compressed_bpp": 0.7475496619617702,
+            "count": 60,
+            "score": 190.0
+        },
+        "scene": {
+            "orig_bpp": 1.3626296089392096,
+            "compressed_bpp": 0.7625903347771137,
+            "count": 400,
+            "score": 166.5
+        },
+        "text_translation": {
+            "orig_bpp": 0.9736230536580891,
+            "compressed_bpp": 1.438599868489775,
+            "count": 40,
+            "score": 192.5
+        },
+        "artwork": {
+            "orig_bpp": 1.2778152194837902,
+            "compressed_bpp": 0.7856334613167226,
+            "count": 400,
+            "score": 153.0
+        },
+        "code_reasoning": {
+            "orig_bpp": 1.4328898885852168,
+            "compressed_bpp": 0.5535045640237133,
+            "count": 40,
+            "score": 97.5
+        },
+        "color": {
+            "orig_bpp": 1.5330678235466546,
+            "compressed_bpp": 0.774278964889699,
+            "count": 60,
+            "score": 145.0
+        },
+        "landmark": {
+            "orig_bpp": 3.205753468443279,
+            "compressed_bpp": 0.5388254094852429,
+            "count": 400,
+            "score": 147.25
+        },
+        "posters": {
+            "orig_bpp": 1.6090259405679035,
+            "compressed_bpp": 0.7059223631333995,
+            "count": 294,
+            "score": 121.7687074829932
+        },
+        "celebrity": {
+            "orig_bpp": 2.5140379716320926,
+            "compressed_bpp": 0.628604541118032,
+            "count": 340,
+            "score": 144.11764705882354
+        },
+        "commonsense_reasoning": {
+            "orig_bpp": 7.5279056695127675,
+            "compressed_bpp": 0.4948446150128006,
+            "count": 140,
+            "score": 103.57142857142857
+        },
+        "Perception": {
+            "orig_bpp": 1.9325083584275662,
+            "compressed_bpp": 0.6965475681966102,
+            "count": 2114,
+            "score": 1521.8030212084836
+        },
+        "Cognition": {
+            "orig_bpp": 6.022064827252519,
+            "compressed_bpp": 0.6953446657026237,
+            "count": 260,
+            "score": 458.57142857142856
+        },
+        "Total": {
+            "orig_bpp": 2.380395756024233,
+            "compressed_bpp": 0.6964158265586842,
+            "count": 2374,
+            "score": 1980.374449779912
+        }
+    },
+    "InternVL2_5-1B-compress_80-method_exponential-prefilter_1-prescale_50.0-sigmamin_0.5-sigmamax_10.0-ksize_11": {
+        "hparams": {
+            "top-k": 50,
+            "top-p": 0.9,
+            "sample": false,
+            "dynamic": true,
+            "max_num": 6,
+            "load-in-8bit": false,
+            "load-in-4bit": false,
+            "auto": false,
+            "prefilter": true,
+            "compress-ratio": 80,
+            "sigma_min": 0.5,
+            "sigma_max": 10.0,
+            "method": "exponential",
+            "ksize": 11,
+            "prescale": 50.0,
+            "clip_arch": "TinyCLIP-ViT-39M-16-Text-19M",
+            "clip_pretrained": "YFCC15M",
+            "image_size": 448,
+            "use_thumbnail": true
+        },
+        "OCR": {
+            "orig_bpp": 1.6101320956466119,
+            "compressed_bpp": 1.1407271047219008,
+            "count": 40,
+            "score": 167.5
+        },
+        "numerical_calculation": {
+            "orig_bpp": 10.389238591603382,
+            "compressed_bpp": 1.1058542601135817,
+            "count": 40,
+            "score": 72.5
+        },
+        "position": {
+            "orig_bpp": 1.3929193986873358,
+            "compressed_bpp": 0.9557814835541338,
+            "count": 60,
+            "score": 158.33333333333331
+        },
+        "count": {
+            "orig_bpp": 1.5342940777051297,
+            "compressed_bpp": 1.0988432964971286,
+            "count": 60,
+            "score": 123.33333333333333
+        },
+        "existence": {
+            "orig_bpp": 1.4499108710879411,
+            "compressed_bpp": 1.0120943642029612,
+            "count": 60,
+            "score": 190.0
+        },
+        "scene": {
+            "orig_bpp": 1.3626296089392096,
+            "compressed_bpp": 1.0340558450942847,
+            "count": 400,
+            "score": 166.5
+        },
+        "text_translation": {
+            "orig_bpp": 0.9736230536580891,
+            "compressed_bpp": 1.8771373984264081,
+            "count": 40,
+            "score": 185.0
+        },
+        "artwork": {
+            "orig_bpp": 1.2778152194837902,
+            "compressed_bpp": 1.1140761071291356,
+            "count": 400,
+            "score": 154.5
+        },
+        "code_reasoning": {
+            "orig_bpp": 1.4328898885852168,
+            "compressed_bpp": 0.7151800962593071,
+            "count": 40,
+            "score": 90.0
+        },
+        "color": {
+            "orig_bpp": 1.5330678235466546,
+            "compressed_bpp": 1.0475537076914956,
+            "count": 60,
+            "score": 150.0
+        },
+        "landmark": {
+            "orig_bpp": 3.205753468443279,
+            "compressed_bpp": 0.7991743374276089,
+            "count": 400,
+            "score": 151.5
+        },
+        "posters": {
+            "orig_bpp": 1.6090259405679035,
+            "compressed_bpp": 1.0105392476574748,
+            "count": 294,
+            "score": 123.46938775510205
+        },
+        "celebrity": {
+            "orig_bpp": 2.5140379716320926,
+            "compressed_bpp": 0.9001123761464173,
+            "count": 340,
+            "score": 144.11764705882354
+        },
+        "commonsense_reasoning": {
+            "orig_bpp": 7.5279056695127675,
+            "compressed_bpp": 0.6984447112517055,
+            "count": 140,
+            "score": 102.14285714285714
+        },
+        "Perception": {
+            "orig_bpp": 1.9325083584275662,
+            "compressed_bpp": 0.9813361957744136,
+            "count": 2114,
+            "score": 1529.253701480592
+        },
+        "Cognition": {
+            "orig_bpp": 6.022064827252519,
+            "compressed_bpp": 0.9450351144892717,
+            "count": 260,
+            "score": 449.6428571428571
+        },
+        "Total": {
+            "orig_bpp": 2.380395756024233,
+            "compressed_bpp": 0.9773605086917947,
+            "count": 2374,
+            "score": 1978.8965586234492
+        }
+    },
+    "InternVL2_5-1B-compress_100-method_exponential-prefilter_0-prescale_50.0-sigmamin_0.5-sigmamax_10.0-ksize_11": {
+        "hparams": {
+            "top-k": 50,
+            "top-p": 0.9,
+            "sample": false,
+            "dynamic": true,
+            "max_num": 6,
+            "load-in-8bit": false,
+            "load-in-4bit": false,
+            "auto": false,
+            "prefilter": false,
+            "compress-ratio": 100,
+            "sigma_min": 0.5,
+            "sigma_max": 10.0,
+            "method": "exponential",
+            "ksize": 11,
+            "prescale": 50.0,
+            "clip_arch": "TinyCLIP-ViT-39M-16-Text-19M",
+            "clip_pretrained": "YFCC15M",
+            "image_size": 448,
+            "use_thumbnail": true
+        },
+        "OCR": {
+            "orig_bpp": 1.6101320956466119,
+            "compressed_bpp": 4.701079935879289,
+            "count": 40,
+            "score": 170.0
+        },
+        "numerical_calculation": {
+            "orig_bpp": 10.389238591603382,
+            "compressed_bpp": 5.460801646588495,
+            "count": 40,
+            "score": 55.0
+        },
+        "position": {
+            "orig_bpp": 1.3929193986873358,
+            "compressed_bpp": 4.1855180476423115,
+            "count": 60,
+            "score": 153.33333333333334
+        },
+        "count": {
+            "orig_bpp": 1.5342940777051297,
+            "compressed_bpp": 4.5807928217708485,
+            "count": 60,
+            "score": 128.33333333333334
+        },
+        "existence": {
+            "orig_bpp": 1.4499108710879411,
+            "compressed_bpp": 4.326279417817525,
+            "count": 60,
+            "score": 195.0
+        },
+        "scene": {
+            "orig_bpp": 1.3626296089392096,
+            "compressed_bpp": 4.110864691802821,
+            "count": 400,
+            "score": 162.0
+        },
+        "text_translation": {
+            "orig_bpp": 0.9736230536580891,
+            "compressed_bpp": 6.054381671293675,
+            "count": 40,
+            "score": 192.5
+        },
+        "artwork": {
+            "orig_bpp": 1.2778152194837902,
+            "compressed_bpp": 4.149548741057778,
+            "count": 400,
+            "score": 150.0
+        },
+        "code_reasoning": {
+            "orig_bpp": 1.4328898885852168,
+            "compressed_bpp": 2.3938207377744516,
+            "count": 40,
+            "score": 95.0
+        },
+        "color": {
+            "orig_bpp": 1.5330678235466546,
+            "compressed_bpp": 4.598139627504082,
+            "count": 60,
+            "score": 145.0
+        },
+        "landmark": {
+            "orig_bpp": 3.205753468443279,
+            "compressed_bpp": 4.651937417814073,
+            "count": 400,
+            "score": 150.75
+        },
+        "posters": {
+            "orig_bpp": 1.6090259405679035,
+            "compressed_bpp": 4.275554128845366,
+            "count": 294,
+            "score": 125.85034013605443
+        },
+        "celebrity": {
+            "orig_bpp": 2.5140379716320926,
+            "compressed_bpp": 4.343217404648133,
+            "count": 340,
+            "score": 147.05882352941177
+        },
+        "commonsense_reasoning": {
+            "orig_bpp": 7.5279056695127675,
+            "compressed_bpp": 3.781127030053591,
+            "count": 140,
+            "score": 106.42857142857143
+        },
+        "Perception": {
+            "orig_bpp": 1.9325083584275662,
+            "compressed_bpp": 4.327404997185445,
+            "count": 2114,
+            "score": 1527.325830332133
+        },
+        "Cognition": {
+            "orig_bpp": 6.022064827252519,
+            "compressed_bpp": 4.175838255514491,
+            "count": 260,
+            "score": 448.92857142857144
+        },
+        "Total": {
+            "orig_bpp": 2.380395756024233,
+            "compressed_bpp": 4.310805438282982,
+            "count": 2374,
+            "score": 1976.2544017607042
+        }
+    },
+    "InternVL2_5-1B-compress_100-method_exponential-prefilter_1-prescale_50.0-sigmamin_0.5-sigmamax_10.0-ksize_11": {
+        "hparams": {
+            "top-k": 50,
+            "top-p": 0.9,
+            "sample": false,
+            "dynamic": true,
+            "max_num": 6,
+            "load-in-8bit": false,
+            "load-in-4bit": false,
+            "auto": false,
+            "prefilter": true,
+            "compress-ratio": 100,
+            "sigma_min": 0.5,
+            "sigma_max": 10.0,
+            "method": "exponential",
+            "ksize": 11,
+            "prescale": 50.0,
+            "clip_arch": "TinyCLIP-ViT-39M-16-Text-19M",
+            "clip_pretrained": "YFCC15M",
+            "image_size": 448,
+            "use_thumbnail": true
+        },
+        "OCR": {
+            "orig_bpp": 1.6101320956466119,
+            "compressed_bpp": 3.8693060171509854,
+            "count": 40,
+            "score": 167.5
+        },
+        "numerical_calculation": {
+            "orig_bpp": 10.389238591603382,
+            "compressed_bpp": 4.098905730850609,
+            "count": 40,
+            "score": 70.0
+        },
+        "position": {
+            "orig_bpp": 1.3929193986873358,
+            "compressed_bpp": 3.646113103956303,
+            "count": 60,
+            "score": 173.33333333333334
+        },
+        "count": {
+            "orig_bpp": 1.5342940777051297,
+            "compressed_bpp": 3.9619735205651554,
+            "count": 60,
+            "score": 133.33333333333334
+        },
+        "existence": {
+            "orig_bpp": 1.4499108710879411,
+            "compressed_bpp": 3.7030318350612004,
+            "count": 60,
+            "score": 195.0
+        },
+        "scene": {
+            "orig_bpp": 1.3626296089392096,
+            "compressed_bpp": 3.741722338893189,
+            "count": 400,
+            "score": 166.5
+        },
+        "text_translation": {
+            "orig_bpp": 0.9736230536580891,
+            "compressed_bpp": 5.27493742703589,
+            "count": 40,
+            "score": 185.0
+        },
+        "artwork": {
+            "orig_bpp": 1.2778152194837902,
+            "compressed_bpp": 4.079688335940393,
+            "count": 400,
+            "score": 151.25
+        },
+        "code_reasoning": {
+            "orig_bpp": 1.4328898885852168,
+            "compressed_bpp": 1.9199618063979913,
+            "count": 40,
+            "score": 92.5
+        },
+        "color": {
+            "orig_bpp": 1.5330678235466546,
+            "compressed_bpp": 3.8887519599803597,
+            "count": 60,
+            "score": 150.0
+        },
+        "landmark": {
+            "orig_bpp": 3.205753468443279,
+            "compressed_bpp": 3.468858824258311,
+            "count": 400,
+            "score": 150.25
+        },
+        "posters": {
+            "orig_bpp": 1.6090259405679035,
+            "compressed_bpp": 3.7283489084506596,
+            "count": 294,
+            "score": 127.89115646258503
+        },
+        "celebrity": {
+            "orig_bpp": 2.5140379716320926,
+            "compressed_bpp": 3.666372108733615,
+            "count": 340,
+            "score": 146.76470588235293
+        },
+        "commonsense_reasoning": {
+            "orig_bpp": 7.5279056695127675,
+            "compressed_bpp": 2.9324190036005326,
+            "count": 140,
+            "score": 112.85714285714286
+        },
+        "Perception": {
+            "orig_bpp": 1.9325083584275662,
+            "compressed_bpp": 3.749088628926443,
+            "count": 2114,
+            "score": 1561.8225290116047
+        },
+        "Cognition": {
+            "orig_bpp": 6.022064827252519,
+            "compressed_bpp": 3.316503304136362,
+            "count": 260,
+            "score": 460.3571428571429
+        },
+        "Total": {
+            "orig_bpp": 2.380395756024233,
+            "compressed_bpp": 3.701711971620031,
+            "count": 2374,
+            "score": 2022.1796718687476
+        }
+    },
+    "InternVL2_5-1B-compress_90-method_exponential-prefilter_0-prescale_50.0-sigmamin_0.5-sigmamax_10.0-ksize_11": {
+        "hparams": {
+            "top-k": 50,
+            "top-p": 0.9,
+            "sample": false,
+            "dynamic": true,
+            "max_num": 6,
+            "load-in-8bit": false,
+            "load-in-4bit": false,
+            "auto": false,
+            "prefilter": false,
+            "compress-ratio": 90,
+            "sigma_min": 0.5,
+            "sigma_max": 10.0,
+            "method": "exponential",
+            "ksize": 11,
+            "prescale": 50.0,
+            "clip_arch": "TinyCLIP-ViT-39M-16-Text-19M",
+            "clip_pretrained": "YFCC15M",
+            "image_size": 448,
+            "use_thumbnail": true
+        },
+        "OCR": {
+            "orig_bpp": 1.6101320956466119,
+            "compressed_bpp": 2.2788936000978666,
+            "count": 40,
+            "score": 170.0
+        },
+        "numerical_calculation": {
+            "orig_bpp": 10.389238591603382,
+            "compressed_bpp": 2.060271866944142,
+            "count": 40,
+            "score": 62.5
+        },
+        "position": {
+            "orig_bpp": 1.3929193986873358,
+            "compressed_bpp": 1.9966642808246735,
+            "count": 60,
+            "score": 143.33333333333331
+        },
+        "count": {
+            "orig_bpp": 1.5342940777051297,
+            "compressed_bpp": 2.208584435154492,
+            "count": 60,
+            "score": 141.66666666666666
+        },
+        "existence": {
+            "orig_bpp": 1.4499108710879411,
+            "compressed_bpp": 2.081214081837133,
+            "count": 60,
+            "score": 190.0
+        },
+        "scene": {
+            "orig_bpp": 1.3626296089392096,
+            "compressed_bpp": 1.951612129216983,
+            "count": 400,
+            "score": 161.25
+        },
+        "text_translation": {
+            "orig_bpp": 0.9736230536580891,
+            "compressed_bpp": 2.847352006075713,
+            "count": 40,
+            "score": 192.5
+        },
+        "artwork": {
+            "orig_bpp": 1.2778152194837902,
+            "compressed_bpp": 1.9705623291390872,
+            "count": 400,
+            "score": 151.5
+        },
+        "code_reasoning": {
+            "orig_bpp": 1.4328898885852168,
+            "compressed_bpp": 1.1752973389710513,
+            "count": 40,
+            "score": 90.0
+        },
+        "color": {
+            "orig_bpp": 1.5330678235466546,
+            "compressed_bpp": 2.2006998300000755,
+            "count": 60,
+            "score": 140.0
+        },
+        "landmark": {
+            "orig_bpp": 3.205753468443279,
+            "compressed_bpp": 1.7961868668860572,
+            "count": 400,
+            "score": 151.75
+        },
+        "posters": {
+            "orig_bpp": 1.6090259405679035,
+            "compressed_bpp": 1.9677608723523627,
+            "count": 294,
+            "score": 127.89115646258503
+        },
+        "celebrity": {
+            "orig_bpp": 2.5140379716320926,
+            "compressed_bpp": 1.896488414320803,
+            "count": 340,
+            "score": 147.94117647058823
+        },
+        "commonsense_reasoning": {
+            "orig_bpp": 7.5279056695127675,
+            "compressed_bpp": 1.3424824581108226,
+            "count": 140,
+            "score": 109.28571428571428
+        },
+        "Perception": {
+            "orig_bpp": 1.9325083584275662,
+            "compressed_bpp": 1.9446820194467436,
+            "count": 2114,
+            "score": 1525.3323329331733
+        },
+        "Cognition": {
+            "orig_bpp": 6.022064827252519,
+            "compressed_bpp": 1.658709202365967,
+            "count": 260,
+            "score": 454.2857142857143
+        },
+        "Total": {
+            "orig_bpp": 2.380395756024233,
+            "compressed_bpp": 1.913362334341014,
+            "count": 2374,
+            "score": 1979.6180472188876
+        }
+    },
+    "InternVL2_5-1B-compress_90-method_exponential-prefilter_1-prescale_50.0-sigmamin_0.5-sigmamax_10.0-ksize_11": {
+        "hparams": {
+            "top-k": 50,
+            "top-p": 0.9,
+            "sample": false,
+            "dynamic": true,
+            "max_num": 6,
+            "load-in-8bit": false,
+            "load-in-4bit": false,
+            "auto": false,
+            "prefilter": true,
+            "compress-ratio": 90,
+            "sigma_min": 0.5,
+            "sigma_max": 10.0,
+            "method": "exponential",
+            "ksize": 11,
+            "prescale": 50.0,
+            "clip_arch": "TinyCLIP-ViT-39M-16-Text-19M",
+            "clip_pretrained": "YFCC15M",
+            "image_size": 448,
+            "use_thumbnail": true
+        },
+        "OCR": {
+            "orig_bpp": 1.6101320956466119,
+            "compressed_bpp": 1.5648508355582988,
+            "count": 40,
+            "score": 167.5
+        },
+        "numerical_calculation": {
+            "orig_bpp": 10.389238591603382,
+            "compressed_bpp": 1.5577895852018329,
+            "count": 40,
+            "score": 80.0
+        },
+        "position": {
+            "orig_bpp": 1.3929193986873358,
+            "compressed_bpp": 1.3441354177071005,
+            "count": 60,
+            "score": 163.33333333333334
+        },
+        "count": {
+            "orig_bpp": 1.5342940777051297,
+            "compressed_bpp": 1.5362287519862174,
+            "count": 60,
+            "score": 128.33333333333334
+        },
+        "existence": {
+            "orig_bpp": 1.4499108710879411,
+            "compressed_bpp": 1.4171241154501886,
+            "count": 60,
+            "score": 190.0
+        },
+        "scene": {
+            "orig_bpp": 1.3626296089392096,
+            "compressed_bpp": 1.4426130529358077,
+            "count": 400,
+            "score": 166.0
+        },
+        "text_translation": {
+            "orig_bpp": 0.9736230536580891,
+            "compressed_bpp": 2.474022473408782,
+            "count": 40,
+            "score": 192.5
+        },
+        "artwork": {
+            "orig_bpp": 1.2778152194837902,
+            "compressed_bpp": 1.551994906959354,
+            "count": 400,
+            "score": 153.5
+        },
+        "code_reasoning": {
+            "orig_bpp": 1.4328898885852168,
+            "compressed_bpp": 0.9337746923870949,
+            "count": 40,
+            "score": 92.5
+        },
+        "color": {
+            "orig_bpp": 1.5330678235466546,
+            "compressed_bpp": 1.4730175168282678,
+            "count": 60,
+            "score": 150.0
+        },
+        "landmark": {
+            "orig_bpp": 3.205753468443279,
+            "compressed_bpp": 1.172977936381549,
+            "count": 400,
+            "score": 153.25
+        },
+        "posters": {
+            "orig_bpp": 1.6090259405679035,
+            "compressed_bpp": 1.4193560324334509,
+            "count": 294,
+            "score": 126.53061224489795
+        },
+        "celebrity": {
+            "orig_bpp": 2.5140379716320926,
+            "compressed_bpp": 1.3308183352329381,
+            "count": 340,
+            "score": 144.11764705882354
+        },
+        "commonsense_reasoning": {
+            "orig_bpp": 7.5279056695127675,
+            "compressed_bpp": 0.9976868535302928,
+            "count": 140,
+            "score": 101.42857142857144
+        },
+        "Perception": {
+            "orig_bpp": 1.9325083584275662,
+            "compressed_bpp": 1.3933905617625146,
+            "count": 2114,
+            "score": 1542.5649259703882
+        },
+        "Cognition": {
+            "orig_bpp": 6.022064827252519,
+            "compressed_bpp": 1.30115242128519,
+            "count": 260,
+            "score": 466.42857142857144
+        },
+        "Total": {
+            "orig_bpp": 2.380395756024233,
+            "compressed_bpp": 1.3832886592671043,
+            "count": 2374,
+            "score": 2008.9934973989598
+        }
+    },
+    "InternVL2_5-1B-compress_70-method_exponential-prefilter_1-prescale_50.0-sigmamin_0.5-sigmamax_0.5-ksize_11": {
+        "hparams": {
+            "top-k": 50,
+            "top-p": 0.9,
+            "sample": false,
+            "dynamic": true,
+            "max_num": 6,
+            "load-in-8bit": false,
+            "load-in-4bit": false,
+            "auto": false,
+            "prefilter": true,
+            "compress-ratio": 70,
+            "sigma_min": 0.5,
+            "sigma_max": 0.5,
+            "method": "exponential",
+            "ksize": 11,
+            "prescale": 50.0,
+            "clip_arch": "TinyCLIP-ViT-39M-16-Text-19M",
+            "clip_pretrained": "YFCC15M",
+            "image_size": 448,
+            "use_thumbnail": true
+        },
+        "OCR": {
+            "orig_bpp": 1.6101320956466119,
+            "compressed_bpp": 1.3683730419759594,
+            "count": 40,
+            "score": 162.5
+        },
+        "numerical_calculation": {
+            "orig_bpp": 10.389238591603382,
+            "compressed_bpp": 1.0695474374360552,
+            "count": 40,
+            "score": 65.0
+        },
+        "position": {
+            "orig_bpp": 1.3929193986873358,
+            "compressed_bpp": 1.1902102263040915,
+            "count": 60,
+            "score": 143.33333333333331
+        },
+        "count": {
+            "orig_bpp": 1.5342940777051297,
+            "compressed_bpp": 1.3089677658795447,
+            "count": 60,
+            "score": 128.33333333333334
+        },
+        "existence": {
+            "orig_bpp": 1.4499108710879411,
+            "compressed_bpp": 1.2424290615805533,
+            "count": 60,
+            "score": 190.0
+        },
+        "scene": {
+            "orig_bpp": 1.3626296089392096,
+            "compressed_bpp": 1.1803639787404623,
+            "count": 400,
+            "score": 162.75
+        },
+        "text_translation": {
+            "orig_bpp": 0.9736230536580891,
+            "compressed_bpp": 1.7626415101624417,
+            "count": 40,
+            "score": 192.5
+        },
+        "artwork": {
+            "orig_bpp": 1.2778152194837902,
+            "compressed_bpp": 1.1920416612285825,
+            "count": 400,
+            "score": 154.0
+        },
+        "code_reasoning": {
+            "orig_bpp": 1.4328898885852168,
+            "compressed_bpp": 0.7218971098185805,
+            "count": 40,
+            "score": 90.0
+        },
+        "color": {
+            "orig_bpp": 1.5330678235466546,
+            "compressed_bpp": 1.3187178326595288,
+            "count": 60,
+            "score": 150.0
+        },
+        "landmark": {
+            "orig_bpp": 3.205753468443279,
+            "compressed_bpp": 0.8649285688660947,
+            "count": 400,
+            "score": 150.0
+        },
+        "posters": {
+            "orig_bpp": 1.6090259405679035,
+            "compressed_bpp": 1.0932960186434817,
+            "count": 294,
+            "score": 122.7891156462585
+        },
+        "celebrity": {
+            "orig_bpp": 2.5140379716320926,
+            "compressed_bpp": 0.8754461386661476,
+            "count": 340,
+            "score": 147.05882352941177
+        },
+        "commonsense_reasoning": {
+            "orig_bpp": 7.5279056695127675,
+            "compressed_bpp": 0.7291546886463282,
+            "count": 140,
+            "score": 113.57142857142858
+        },
+        "Perception": {
+            "orig_bpp": 1.9325083584275662,
+            "compressed_bpp": 1.0749142928222286,
+            "count": 2114,
+            "score": 1510.764605842337
+        },
+        "Cognition": {
+            "orig_bpp": 6.022064827252519,
+            "compressed_bpp": 0.9394042257968039,
+            "count": 260,
+            "score": 461.07142857142856
+        },
+        "Total": {
+            "orig_bpp": 2.380395756024233,
+            "compressed_bpp": 1.0600732576804381,
+            "count": 2374,
+            "score": 1971.8360344137654
+        }
+    },
+    "InternVL2_5-1B-compress_70-method_exponential-prefilter_1-prescale_50.0-sigmamin_0.5-sigmamax_0.75-ksize_11": {
+        "hparams": {
+            "top-k": 50,
+            "top-p": 0.9,
+            "sample": false,
+            "dynamic": true,
+            "max_num": 6,
+            "load-in-8bit": false,
+            "load-in-4bit": false,
+            "auto": false,
+            "prefilter": true,
+            "compress-ratio": 70,
+            "sigma_min": 0.5,
+            "sigma_max": 0.75,
+            "method": "exponential",
+            "ksize": 11,
+            "prescale": 50.0,
+            "clip_arch": "TinyCLIP-ViT-39M-16-Text-19M",
+            "clip_pretrained": "YFCC15M",
+            "image_size": 448,
+            "use_thumbnail": true
+        },
+        "OCR": {
+            "orig_bpp": 1.6101320956466119,
+            "compressed_bpp": 1.2794920599298705,
+            "count": 40,
+            "score": 170.0
+        },
+        "numerical_calculation": {
+            "orig_bpp": 10.389238591603382,
+            "compressed_bpp": 1.055002267918622,
+            "count": 40,
+            "score": 62.5
+        },
+        "position": {
+            "orig_bpp": 1.3929193986873358,
+            "compressed_bpp": 1.0975123627167094,
+            "count": 60,
+            "score": 153.33333333333334
+        },
+        "count": {
+            "orig_bpp": 1.5342940777051297,
+            "compressed_bpp": 1.2254105089961767,
+            "count": 60,
+            "score": 133.33333333333334
+        },
+        "existence": {
+            "orig_bpp": 1.4499108710879411,
+            "compressed_bpp": 1.1528542516627658,
+            "count": 60,
+            "score": 190.0
+        },
+        "scene": {
+            "orig_bpp": 1.3626296089392096,
+            "compressed_bpp": 1.1250508866448121,
+            "count": 400,
+            "score": 162.75
+        },
+        "text_translation": {
+            "orig_bpp": 0.9736230536580891,
+            "compressed_bpp": 1.749503555313531,
+            "count": 40,
+            "score": 192.5
+        },
+        "artwork": {
+            "orig_bpp": 1.2778152194837902,
+            "compressed_bpp": 1.156075488351489,
+            "count": 400,
+            "score": 153.75
+        },
+        "code_reasoning": {
+            "orig_bpp": 1.4328898885852168,
+            "compressed_bpp": 0.7083333433990696,
+            "count": 40,
+            "score": 85.0
+        },
+        "color": {
+            "orig_bpp": 1.5330678235466546,
+            "compressed_bpp": 1.2119645077264911,
+            "count": 60,
+            "score": 150.0
+        },
+        "landmark": {
+            "orig_bpp": 3.205753468443279,
+            "compressed_bpp": 0.8356524713630984,
+            "count": 400,
+            "score": 149.25
+        },
+        "posters": {
+            "orig_bpp": 1.6090259405679035,
+            "compressed_bpp": 1.057614767739984,
+            "count": 294,
+            "score": 125.85034013605443
+        },
+        "celebrity": {
+            "orig_bpp": 2.5140379716320926,
+            "compressed_bpp": 0.8581799464704154,
+            "count": 340,
+            "score": 146.1764705882353
+        },
+        "commonsense_reasoning": {
+            "orig_bpp": 7.5279056695127675,
+            "compressed_bpp": 0.7110755184733673,
+            "count": 140,
+            "score": 109.28571428571428
+        },
+        "Perception": {
+            "orig_bpp": 1.9325083584275662,
+            "compressed_bpp": 1.0321076832178713,
+            "count": 2114,
+            "score": 1534.4434773909566
+        },
+        "Cognition": {
+            "orig_bpp": 6.022064827252519,
+            "compressed_bpp": 0.9233236125058474,
+            "count": 260,
+            "score": 449.2857142857143
+        },
+        "Total": {
+            "orig_bpp": 2.380395756024233,
+            "compressed_bpp": 1.0201936737885848,
+            "count": 2374,
+            "score": 1983.7291916766708
+        }
+    },
+    "InternVL2_5-1B-compress_70-method_exponential-prefilter_1-prescale_50.0-sigmamin_0.5-sigmamax_1.0-ksize_11": {
+        "hparams": {
+            "top-k": 50,
+            "top-p": 0.9,
+            "sample": false,
+            "dynamic": true,
+            "max_num": 6,
+            "load-in-8bit": false,
+            "load-in-4bit": false,
+            "auto": false,
+            "prefilter": true,
+            "compress-ratio": 70,
+            "sigma_min": 0.5,
+            "sigma_max": 1.0,
+            "method": "exponential",
+            "ksize": 11,
+            "prescale": 50.0,
+            "clip_arch": "TinyCLIP-ViT-39M-16-Text-19M",
+            "clip_pretrained": "YFCC15M",
+            "image_size": 448,
+            "use_thumbnail": true
+        },
+        "OCR": {
+            "orig_bpp": 1.6101320956466119,
+            "compressed_bpp": 1.2168475218614896,
+            "count": 40,
+            "score": 170.0
+        },
+        "numerical_calculation": {
+            "orig_bpp": 10.389238591603382,
+            "compressed_bpp": 1.0362324267695215,
+            "count": 40,
+            "score": 65.0
+        },
+        "position": {
+            "orig_bpp": 1.3929193986873358,
+            "compressed_bpp": 1.0349160070375427,
+            "count": 60,
+            "score": 161.66666666666669
+        },
+        "count": {
+            "orig_bpp": 1.5342940777051297,
+            "compressed_bpp": 1.169026099374021,
+            "count": 60,
+            "score": 128.33333333333334
+        },
+        "existence": {
+            "orig_bpp": 1.4499108710879411,
+            "compressed_bpp": 1.0974644889143523,
+            "count": 60,
+            "score": 190.0
+        },
+        "scene": {
+            "orig_bpp": 1.3626296089392096,
+            "compressed_bpp": 1.086149664523764,
+            "count": 400,
+            "score": 162.25
+        },
+        "text_translation": {
+            "orig_bpp": 0.9736230536580891,
+            "compressed_bpp": 1.733817672828406,
+            "count": 40,
+            "score": 192.5
+        },
+        "artwork": {
+            "orig_bpp": 1.2778152194837902,
+            "compressed_bpp": 1.1188407550065878,
+            "count": 400,
+            "score": 153.0
+        },
+        "code_reasoning": {
+            "orig_bpp": 1.4328898885852168,
+            "compressed_bpp": 0.6972517801923666,
+            "count": 40,
+            "score": 107.5
+        },
+        "color": {
+            "orig_bpp": 1.5330678235466546,
+            "compressed_bpp": 1.1454649214397883,
+            "count": 60,
+            "score": 140.0
+        },
+        "landmark": {
+            "orig_bpp": 3.205753468443279,
+            "compressed_bpp": 0.8069951966970824,
+            "count": 400,
+            "score": 147.0
+        },
+        "posters": {
+            "orig_bpp": 1.6090259405679035,
+            "compressed_bpp": 1.0231827607409905,
+            "count": 294,
+            "score": 123.80952380952382
+        },
+        "celebrity": {
+            "orig_bpp": 2.5140379716320926,
+            "compressed_bpp": 0.8403411492675105,
+            "count": 340,
+            "score": 147.94117647058823
+        },
+        "commonsense_reasoning": {
+            "orig_bpp": 7.5279056695127675,
+            "compressed_bpp": 0.6923997643622071,
+            "count": 140,
+            "score": 112.14285714285714
+        },
+        "Perception": {
+            "orig_bpp": 1.9325083584275662,
+            "compressed_bpp": 0.9965998868401986,
+            "count": 2114,
+            "score": 1524.0007002801121
+        },
+        "Cognition": {
+            "orig_bpp": 6.022064827252519,
+            "compressed_bpp": 0.9062617007781567,
+            "count": 260,
+            "score": 477.1428571428571
+        },
+        "Total": {
+            "orig_bpp": 2.380395756024233,
+            "compressed_bpp": 0.9867060669681974,
+            "count": 2374,
+            "score": 2001.1435574229693
+        }
+    },
+    "InternVL2_5-1B-compress_70-method_exponential-prefilter_1-prescale_50.0-sigmamin_0.5-sigmamax_1.5-ksize_11": {
+        "hparams": {
+            "top-k": 50,
+            "top-p": 0.9,
+            "sample": false,
+            "dynamic": true,
+            "max_num": 6,
+            "load-in-8bit": false,
+            "load-in-4bit": false,
+            "auto": false,
+            "prefilter": true,
+            "compress-ratio": 70,
+            "sigma_min": 0.5,
+            "sigma_max": 1.5,
+            "method": "exponential",
+            "ksize": 11,
+            "prescale": 50.0,
+            "clip_arch": "TinyCLIP-ViT-39M-16-Text-19M",
+            "clip_pretrained": "YFCC15M",
+            "image_size": 448,
+            "use_thumbnail": true
+        },
+        "OCR": {
+            "orig_bpp": 1.6101320956466119,
+            "compressed_bpp": 1.137653041783806,
+            "count": 40,
+            "score": 170.0
+        },
+        "numerical_calculation": {
+            "orig_bpp": 10.389238591603382,
+            "compressed_bpp": 1.0079087030365135,
+            "count": 40,
+            "score": 67.5
+        },
+        "position": {
+            "orig_bpp": 1.3929193986873358,
+            "compressed_bpp": 0.9524453545415491,
+            "count": 60,
+            "score": 158.33333333333331
+        },
+        "count": {
+            "orig_bpp": 1.5342940777051297,
+            "compressed_bpp": 1.0935144876279614,
+            "count": 60,
+            "score": 123.33333333333333
+        },
+        "existence": {
+            "orig_bpp": 1.4499108710879411,
+            "compressed_bpp": 1.0267730224028697,
+            "count": 60,
+            "score": 190.0
+        },
+        "scene": {
+            "orig_bpp": 1.3626296089392096,
+            "compressed_bpp": 1.0305853382774808,
+            "count": 400,
+            "score": 163.5
+        },
+        "text_translation": {
+            "orig_bpp": 0.9736230536580891,
+            "compressed_bpp": 1.709429800771543,
+            "count": 40,
+            "score": 192.5
+        },
+        "artwork": {
+            "orig_bpp": 1.2778152194837902,
+            "compressed_bpp": 1.0656510715748475,
+            "count": 400,
+            "score": 153.25
+        },
+        "code_reasoning": {
+            "orig_bpp": 1.4328898885852168,
+            "compressed_bpp": 0.6805223280549474,
+            "count": 40,
+            "score": 87.5
+        },
+        "color": {
+            "orig_bpp": 1.5330678235466546,
+            "compressed_bpp": 1.0585713891467519,
+            "count": 60,
+            "score": 145.0
+        },
+        "landmark": {
+            "orig_bpp": 3.205753468443279,
+            "compressed_bpp": 0.7615525790158111,
+            "count": 400,
+            "score": 147.25
+        },
+        "posters": {
+            "orig_bpp": 1.6090259405679035,
+            "compressed_bpp": 0.9713958052637429,
+            "count": 294,
+            "score": 125.51020408163265
+        },
+        "celebrity": {
+            "orig_bpp": 2.5140379716320926,
+            "compressed_bpp": 0.8115655629634044,
+            "count": 340,
+            "score": 147.05882352941177
+        },
+        "commonsense_reasoning": {
+            "orig_bpp": 7.5279056695127675,
+            "compressed_bpp": 0.661813266605616,
+            "count": 140,
+            "score": 107.85714285714286
+        },
+        "Perception": {
+            "orig_bpp": 1.9325083584275662,
+            "compressed_bpp": 0.9451384250694673,
+            "count": 2114,
+            "score": 1523.235694277711
+        },
+        "Cognition": {
+            "orig_bpp": 6.022064827252519,
+            "compressed_bpp": 0.8791088099973323,
+            "count": 260,
+            "score": 455.3571428571429
+        },
+        "Total": {
+            "orig_bpp": 2.380395756024233,
+            "compressed_bpp": 0.9379068749773211,
+            "count": 2374,
+            "score": 1978.5928371348539
+        }
+    },
+    "InternVL2_5-1B-compress_70-method_exponential-prefilter_1-prescale_50.0-sigmamin_0.5-sigmamax_2.0-ksize_11": {
+        "hparams": {
+            "top-k": 50,
+            "top-p": 0.9,
+            "sample": false,
+            "dynamic": true,
+            "max_num": 6,
+            "load-in-8bit": false,
+            "load-in-4bit": false,
+            "auto": false,
+            "prefilter": true,
+            "compress-ratio": 70,
+            "sigma_min": 0.5,
+            "sigma_max": 2.0,
+            "method": "exponential",
+            "ksize": 11,
+            "prescale": 50.0,
+            "clip_arch": "TinyCLIP-ViT-39M-16-Text-19M",
+            "clip_pretrained": "YFCC15M",
+            "image_size": 448,
+            "use_thumbnail": true
+        },
+        "OCR": {
+            "orig_bpp": 1.6101320956466119,
+            "compressed_bpp": 1.0883592088555685,
+            "count": 40,
+            "score": 170.0
+        },
+        "numerical_calculation": {
+            "orig_bpp": 10.389238591603382,
+            "compressed_bpp": 0.9880958918492656,
+            "count": 40,
+            "score": 67.5
+        },
+        "position": {
+            "orig_bpp": 1.3929193986873358,
+            "compressed_bpp": 0.9013428897226533,
+            "count": 60,
+            "score": 163.33333333333334
+        },
+        "count": {
+            "orig_bpp": 1.5342940777051297,
+            "compressed_bpp": 1.0456263279733564,
+            "count": 60,
+            "score": 128.33333333333334
+        },
+        "existence": {
+            "orig_bpp": 1.4499108710879411,
+            "compressed_bpp": 0.9810958309002188,
+            "count": 60,
+            "score": 190.0
+        },
+        "scene": {
+            "orig_bpp": 1.3626296089392096,
+            "compressed_bpp": 0.9925140332336003,
+            "count": 400,
+            "score": 165.25
+        },
+        "text_translation": {
+            "orig_bpp": 0.9736230536580891,
+            "compressed_bpp": 1.6919901160940687,
+            "count": 40,
+            "score": 192.5
+        },
+        "artwork": {
+            "orig_bpp": 1.2778152194837902,
+            "compressed_bpp": 1.0297557228401546,
+            "count": 400,
+            "score": 153.5
+        },
+        "code_reasoning": {
+            "orig_bpp": 1.4328898885852168,
+            "compressed_bpp": 0.6674602990180893,
+            "count": 40,
+            "score": 102.5
+        },
+        "color": {
+            "orig_bpp": 1.5330678235466546,
+            "compressed_bpp": 1.0042215393648752,
+            "count": 60,
+            "score": 150.0
+        },
+        "landmark": {
+            "orig_bpp": 3.205753468443279,
+            "compressed_bpp": 0.7291086239109967,
+            "count": 400,
+            "score": 148.0
+        },
+        "posters": {
+            "orig_bpp": 1.6090259405679035,
+            "compressed_bpp": 0.9355573206818295,
+            "count": 294,
+            "score": 124.14965986394557
+        },
+        "celebrity": {
+            "orig_bpp": 2.5140379716320926,
+            "compressed_bpp": 0.7914800193878924,
+            "count": 340,
+            "score": 147.05882352941177
+        },
+        "commonsense_reasoning": {
+            "orig_bpp": 7.5279056695127675,
+            "compressed_bpp": 0.6390775166247429,
+            "count": 140,
+            "score": 110.0
+        },
+        "Perception": {
+            "orig_bpp": 1.9325083584275662,
+            "compressed_bpp": 0.9102081241713014,
+            "count": 2114,
+            "score": 1539.625150060024
+        },
+        "Cognition": {
+            "orig_bpp": 6.022064827252519,
+            "compressed_bpp": 0.8591257869458496,
+            "count": 260,
+            "score": 472.5
+        },
+        "Total": {
+            "orig_bpp": 2.380395756024233,
+            "compressed_bpp": 0.9046135969267279,
+            "count": 2374,
+            "score": 2012.125150060024
+        }
+    },
+    "InternVL2_5-1B-compress_70-method_exponential-prefilter_1-prescale_50.0-sigmamin_0.5-sigmamax_5.0-ksize_11": {
+        "hparams": {
+            "top-k": 50,
+            "top-p": 0.9,
+            "sample": false,
+            "dynamic": true,
+            "max_num": 6,
+            "load-in-8bit": false,
+            "load-in-4bit": false,
+            "auto": false,
+            "prefilter": true,
+            "compress-ratio": 70,
+            "sigma_min": 0.5,
+            "sigma_max": 5.0,
+            "method": "exponential",
+            "ksize": 11,
+            "prescale": 50.0,
+            "clip_arch": "TinyCLIP-ViT-39M-16-Text-19M",
+            "clip_pretrained": "YFCC15M",
+            "image_size": 448,
+            "use_thumbnail": true
+        },
+        "OCR": {
+            "orig_bpp": 1.6101320956466119,
+            "compressed_bpp": 0.999299222445198,
+            "count": 40,
+            "score": 170.0
+        },
+        "numerical_calculation": {
+            "orig_bpp": 10.389238591603382,
+            "compressed_bpp": 0.9399061285575498,
+            "count": 40,
+            "score": 67.5
+        },
+        "position": {
+            "orig_bpp": 1.3929193986873358,
+            "compressed_bpp": 0.8177162601571834,
+            "count": 60,
+            "score": 158.33333333333331
+        },
+        "count": {
+            "orig_bpp": 1.5342940777051297,
+            "compressed_bpp": 0.955581601976564,
+            "count": 60,
+            "score": 128.33333333333334
+        },
+        "existence": {
+            "orig_bpp": 1.4499108710879411,
+            "compressed_bpp": 0.8869420538139097,
+            "count": 60,
+            "score": 190.0
+        },
+        "scene": {
+            "orig_bpp": 1.3626296089392096,
+            "compressed_bpp": 0.9058739696782798,
+            "count": 400,
+            "score": 167.25
+        },
+        "text_translation": {
+            "orig_bpp": 0.9736230536580891,
+            "compressed_bpp": 1.6408308786838135,
+            "count": 40,
+            "score": 192.5
+        },
+        "artwork": {
+            "orig_bpp": 1.2778152194837902,
+            "compressed_bpp": 0.9419844118846038,
+            "count": 400,
+            "score": 155.25
+        },
+        "code_reasoning": {
+            "orig_bpp": 1.4328898885852168,
+            "compressed_bpp": 0.6294128811489406,
+            "count": 40,
+            "score": 80.0
+        },
+        "color": {
+            "orig_bpp": 1.5330678235466546,
+            "compressed_bpp": 0.9090753119063762,
+            "count": 60,
+            "score": 150.0
+        },
+        "landmark": {
+            "orig_bpp": 3.205753468443279,
+            "compressed_bpp": 0.6576392005600329,
+            "count": 400,
+            "score": 147.25
+        },
+        "posters": {
+            "orig_bpp": 1.6090259405679035,
+            "compressed_bpp": 0.855146724430142,
+            "count": 294,
+            "score": 127.2108843537415
+        },
+        "celebrity": {
+            "orig_bpp": 2.5140379716320926,
+            "compressed_bpp": 0.7459571918885525,
+            "count": 340,
+            "score": 145.88235294117646
+        },
+        "commonsense_reasoning": {
+            "orig_bpp": 7.5279056695127675,
+            "compressed_bpp": 0.5888273591062715,
+            "count": 140,
+            "score": 104.28571428571429
+        },
+        "Perception": {
+            "orig_bpp": 1.9325083584275662,
+            "compressed_bpp": 0.8331922883835318,
+            "count": 2114,
+            "score": 1539.5099039615848
+        },
+        "Cognition": {
+            "orig_bpp": 6.022064827252519,
+            "compressed_bpp": 0.810930099271116,
+            "count": 260,
+            "score": 444.2857142857143
+        },
+        "Total": {
+            "orig_bpp": 2.380395756024233,
+            "compressed_bpp": 0.8307541379331409,
+            "count": 2374,
+            "score": 1983.795618247299
+        }
+    },
+    "InternVL2_5-1B-compress_70-method_exponential-prefilter_1-prescale_50.0-sigmamin_0.5-sigmamax_10.0-ksize_11": {
+        "hparams": {
+            "top-k": 50,
+            "top-p": 0.9,
+            "sample": false,
+            "dynamic": true,
+            "max_num": 6,
+            "load-in-8bit": false,
+            "load-in-4bit": false,
+            "auto": false,
+            "prefilter": true,
+            "compress-ratio": 70,
+            "sigma_min": 0.5,
+            "sigma_max": 10.0,
+            "method": "exponential",
+            "ksize": 11,
+            "prescale": 50.0,
+            "clip_arch": "TinyCLIP-ViT-39M-16-Text-19M",
+            "clip_pretrained": "YFCC15M",
+            "image_size": 448,
+            "use_thumbnail": true
+        },
+        "OCR": {
+            "orig_bpp": 1.6101320956466119,
+            "compressed_bpp": 0.9808392439619207,
+            "count": 40,
+            "score": 170.0
+        },
+        "numerical_calculation": {
+            "orig_bpp": 10.389238591603382,
+            "compressed_bpp": 0.9184187884393558,
+            "count": 40,
+            "score": 65.0
+        },
+        "position": {
+            "orig_bpp": 1.3929193986873358,
+            "compressed_bpp": 0.8033687269658514,
+            "count": 60,
+            "score": 158.33333333333331
+        },
+        "count": {
+            "orig_bpp": 1.5342940777051297,
+            "compressed_bpp": 0.9303508965304664,
+            "count": 60,
+            "score": 128.33333333333334
+        },
+        "existence": {
+            "orig_bpp": 1.4499108710879411,
+            "compressed_bpp": 0.8582135298022551,
+            "count": 60,
+            "score": 200.0
+        },
+        "scene": {
+            "orig_bpp": 1.3626296089392096,
+            "compressed_bpp": 0.8756641255784016,
+            "count": 400,
+            "score": 167.25
+        },
+        "text_translation": {
+            "orig_bpp": 0.9736230536580891,
+            "compressed_bpp": 1.6096203205669881,
+            "count": 40,
+            "score": 185.0
+        },
+        "artwork": {
+            "orig_bpp": 1.2778152194837902,
+            "compressed_bpp": 0.9036335533133594,
+            "count": 400,
+            "score": 152.75
+        },
+        "code_reasoning": {
+            "orig_bpp": 1.4328898885852168,
+            "compressed_bpp": 0.6160115495820392,
+            "count": 40,
+            "score": 90.0
+        },
+        "color": {
+            "orig_bpp": 1.5330678235466546,
+            "compressed_bpp": 0.8869611278979981,
+            "count": 60,
+            "score": 155.0
+        },
+        "landmark": {
+            "orig_bpp": 3.205753468443279,
+            "compressed_bpp": 0.6351663531484191,
+            "count": 400,
+            "score": 148.0
+        },
+        "posters": {
+            "orig_bpp": 1.6090259405679035,
+            "compressed_bpp": 0.8285904169339282,
+            "count": 294,
+            "score": 127.2108843537415
+        },
+        "celebrity": {
+            "orig_bpp": 2.5140379716320926,
+            "compressed_bpp": 0.7307958059261955,
+            "count": 340,
+            "score": 145.0
+        },
+        "commonsense_reasoning": {
+            "orig_bpp": 7.5279056695127675,
+            "compressed_bpp": 0.572823665441119,
+            "count": 140,
+            "score": 99.28571428571429
+        },
+        "Perception": {
+            "orig_bpp": 1.9325083584275662,
+            "compressed_bpp": 0.8069200548911184,
+            "count": 2114,
+            "score": 1551.8775510204082
+        },
+        "Cognition": {
+            "orig_bpp": 6.022064827252519,
+            "compressed_bpp": 0.7921436134818922,
+            "count": 260,
+            "score": 439.2857142857143
+        },
+        "Total": {
+            "orig_bpp": 2.380395756024233,
+            "compressed_bpp": 0.8053017420156344,
+            "count": 2374,
+            "score": 1991.1632653061224
+        }
+    },
+    "InternVL2_5-1B-compress_70-method_exponential-prefilter_1-prescale_1.0-sigmamin_0.5-sigmamax_3.0-ksize_11": {
+        "hparams": {
+            "top-k": 50,
+            "top-p": 0.9,
+            "sample": false,
+            "dynamic": true,
+            "max_num": 6,
+            "load-in-8bit": false,
+            "load-in-4bit": false,
+            "auto": false,
+            "prefilter": true,
+            "compress-ratio": 70,
+            "sigma_min": 0.5,
+            "sigma_max": 3.0,
+            "method": "exponential",
+            "ksize": 11,
+            "prescale": 1.0,
+            "clip_arch": "TinyCLIP-ViT-39M-16-Text-19M",
+            "clip_pretrained": "YFCC15M",
+            "image_size": 448,
+            "use_thumbnail": true
+        },
+        "OCR": {
+            "orig_bpp": 1.6101320956466119,
+            "compressed_bpp": 1.3716917435452687,
+            "count": 40,
+            "score": 170.0
+        },
+        "numerical_calculation": {
+            "orig_bpp": 10.389238591603382,
+            "compressed_bpp": 1.0686571455399512,
+            "count": 40,
+            "score": 65.0
+        },
+        "position": {
+            "orig_bpp": 1.3929193986873358,
+            "compressed_bpp": 1.1875812691714716,
+            "count": 60,
+            "score": 156.66666666666669
+        },
+        "count": {
+            "orig_bpp": 1.5342940777051297,
+            "compressed_bpp": 1.3061829002914183,
+            "count": 60,
+            "score": 133.33333333333334
+        },
+        "existence": {
+            "orig_bpp": 1.4499108710879411,
+            "compressed_bpp": 1.236816880755576,
+            "count": 60,
+            "score": 190.0
+        },
+        "scene": {
+            "orig_bpp": 1.3626296089392096,
+            "compressed_bpp": 1.1768382248619078,
+            "count": 400,
+            "score": 162.0
+        },
+        "text_translation": {
+            "orig_bpp": 0.9736230536580891,
+            "compressed_bpp": 1.7600383233526269,
+            "count": 40,
+            "score": 192.5
+        },
+        "artwork": {
+            "orig_bpp": 1.2778152194837902,
+            "compressed_bpp": 1.1906637644588858,
+            "count": 400,
+            "score": 153.75
+        },
+        "code_reasoning": {
+            "orig_bpp": 1.4328898885852168,
+            "compressed_bpp": 0.7196881272448631,
+            "count": 40,
+            "score": 100.0
+        },
+        "color": {
+            "orig_bpp": 1.5330678235466546,
+            "compressed_bpp": 1.3129406570276008,
+            "count": 60,
+            "score": 145.0
+        },
+        "landmark": {
+            "orig_bpp": 3.205753468443279,
+            "compressed_bpp": 0.8639433143836855,
+            "count": 400,
+            "score": 149.5
+        },
+        "posters": {
+            "orig_bpp": 1.6090259405679035,
+            "compressed_bpp": 1.0920786225702954,
+            "count": 294,
+            "score": 123.80952380952382
+        },
+        "celebrity": {
+            "orig_bpp": 2.5140379716320926,
+            "compressed_bpp": 0.8747346110648756,
+            "count": 340,
+            "score": 147.05882352941177
+        },
+        "commonsense_reasoning": {
+            "orig_bpp": 7.5279056695127675,
+            "compressed_bpp": 0.7286994169098883,
+            "count": 140,
+            "score": 108.57142857142856
+        },
+        "Perception": {
+            "orig_bpp": 1.9325083584275662,
+            "compressed_bpp": 1.073102164832588,
+            "count": 2114,
+            "score": 1531.1183473389356
+        },
+        "Cognition": {
+            "orig_bpp": 6.022064827252519,
+            "compressed_bpp": 0.9382817777418537,
+            "count": 260,
+            "score": 466.07142857142856
+        },
+        "Total": {
+            "orig_bpp": 2.380395756024233,
+            "compressed_bpp": 1.0583366632977982,
+            "count": 2374,
+            "score": 1997.189775910364
+        }
+    },
+    "InternVL2_5-1B-compress_70-method_exponential-prefilter_1-prescale_10.0-sigmamin_0.5-sigmamax_3.0-ksize_11": {
+        "hparams": {
+            "top-k": 50,
+            "top-p": 0.9,
+            "sample": false,
+            "dynamic": true,
+            "max_num": 6,
+            "load-in-8bit": false,
+            "load-in-4bit": false,
+            "auto": false,
+            "prefilter": true,
+            "compress-ratio": 70,
+            "sigma_min": 0.5,
+            "sigma_max": 3.0,
+            "method": "exponential",
+            "ksize": 11,
+            "prescale": 10.0,
+            "clip_arch": "TinyCLIP-ViT-39M-16-Text-19M",
+            "clip_pretrained": "YFCC15M",
+            "image_size": 448,
+            "use_thumbnail": true
+        },
+        "OCR": {
+            "orig_bpp": 1.6101320956466119,
+            "compressed_bpp": 1.2994641220349936,
+            "count": 40,
+            "score": 162.5
+        },
+        "numerical_calculation": {
+            "orig_bpp": 10.389238591603382,
+            "compressed_bpp": 1.0625269948018525,
+            "count": 40,
+            "score": 65.0
+        },
+        "position": {
+            "orig_bpp": 1.3929193986873358,
+            "compressed_bpp": 1.0971886118586307,
+            "count": 60,
+            "score": 153.33333333333334
+        },
+        "count": {
+            "orig_bpp": 1.5342940777051297,
+            "compressed_bpp": 1.230780611678495,
+            "count": 60,
+            "score": 143.33333333333331
+        },
+        "existence": {
+            "orig_bpp": 1.4499108710879411,
+            "compressed_bpp": 1.1686633660537653,
+            "count": 60,
+            "score": 190.0
+        },
+        "scene": {
+            "orig_bpp": 1.3626296089392096,
+            "compressed_bpp": 1.1373109140004791,
+            "count": 400,
+            "score": 162.25
+        },
+        "text_translation": {
+            "orig_bpp": 0.9736230536580891,
+            "compressed_bpp": 1.7493889780198681,
+            "count": 40,
+            "score": 192.5
+        },
+        "artwork": {
+            "orig_bpp": 1.2778152194837902,
+            "compressed_bpp": 1.1636681704044485,
+            "count": 400,
+            "score": 153.0
+        },
+        "code_reasoning": {
+            "orig_bpp": 1.4328898885852168,
+            "compressed_bpp": 0.7076837253075297,
+            "count": 40,
+            "score": 92.5
+        },
+        "color": {
+            "orig_bpp": 1.5330678235466546,
+            "compressed_bpp": 1.2127338959288987,
+            "count": 60,
+            "score": 145.0
+        },
+        "landmark": {
+            "orig_bpp": 3.205753468443279,
+            "compressed_bpp": 0.840334121650102,
+            "count": 400,
+            "score": 147.75
+        },
+        "posters": {
+            "orig_bpp": 1.6090259405679035,
+            "compressed_bpp": 1.0704302986106455,
+            "count": 294,
+            "score": 123.80952380952382
+        },
+        "celebrity": {
+            "orig_bpp": 2.5140379716320926,
+            "compressed_bpp": 0.860004502624222,
+            "count": 340,
+            "score": 146.1764705882353
+        },
+        "commonsense_reasoning": {
+            "orig_bpp": 7.5279056695127675,
+            "compressed_bpp": 0.7122553368955797,
+            "count": 140,
+            "score": 109.28571428571428
+        },
+        "Perception": {
+            "orig_bpp": 1.9325083584275662,
+            "compressed_bpp": 1.0398173486841837,
+            "count": 2114,
+            "score": 1527.1526610644257
+        },
+        "Cognition": {
+            "orig_bpp": 6.022064827252519,
+            "compressed_bpp": 0.9249989811175044,
+            "count": 260,
+            "score": 459.2857142857143
+        },
+        "Total": {
+            "orig_bpp": 2.380395756024233,
+            "compressed_bpp": 1.0272424642834521,
+            "count": 2374,
+            "score": 1986.43837535014
+        }
+    },
+    "InternVL2_5-1B-compress_70-method_exponential-prefilter_1-prescale_20.0-sigmamin_0.5-sigmamax_3.0-ksize_11": {
+        "hparams": {
+            "top-k": 50,
+            "top-p": 0.9,
+            "sample": false,
+            "dynamic": true,
+            "max_num": 6,
+            "load-in-8bit": false,
+            "load-in-4bit": false,
+            "auto": false,
+            "prefilter": true,
+            "compress-ratio": 70,
+            "sigma_min": 0.5,
+            "sigma_max": 3.0,
+            "method": "exponential",
+            "ksize": 11,
+            "prescale": 20.0,
+            "clip_arch": "TinyCLIP-ViT-39M-16-Text-19M",
+            "clip_pretrained": "YFCC15M",
+            "image_size": 448,
+            "use_thumbnail": true
+        },
+        "OCR": {
+            "orig_bpp": 1.6101320956466119,
+            "compressed_bpp": 1.2023840303644309,
+            "count": 40,
+            "score": 162.5
+        },
+        "numerical_calculation": {
+            "orig_bpp": 10.389238591603382,
+            "compressed_bpp": 1.0375747691758188,
+            "count": 40,
+            "score": 65.0
+        },
+        "position": {
+            "orig_bpp": 1.3929193986873358,
+            "compressed_bpp": 0.9988250393437811,
+            "count": 60,
+            "score": 158.33333333333331
+        },
+        "count": {
+            "orig_bpp": 1.5342940777051297,
+            "compressed_bpp": 1.1444889874538748,
+            "count": 60,
+            "score": 133.33333333333334
+        },
+        "existence": {
+            "orig_bpp": 1.4499108710879411,
+            "compressed_bpp": 1.0913392608669181,
+            "count": 60,
+            "score": 190.0
+        },
+        "scene": {
+            "orig_bpp": 1.3626296089392096,
+            "compressed_bpp": 1.0811990030988683,
+            "count": 400,
+            "score": 162.25
+        },
+        "text_translation": {
+            "orig_bpp": 0.9736230536580891,
+            "compressed_bpp": 1.7317290575580653,
+            "count": 40,
+            "score": 192.5
+        },
+        "artwork": {
+            "orig_bpp": 1.2778152194837902,
+            "compressed_bpp": 1.1165365640256282,
+            "count": 400,
+            "score": 153.0
+        },
+        "code_reasoning": {
+            "orig_bpp": 1.4328898885852168,
+            "compressed_bpp": 0.6924898164759221,
+            "count": 40,
+            "score": 100.0
+        },
+        "color": {
+            "orig_bpp": 1.5330678235466546,
+            "compressed_bpp": 1.1121304588782537,
+            "count": 60,
+            "score": 150.0
+        },
+        "landmark": {
+            "orig_bpp": 3.205753468443279,
+            "compressed_bpp": 0.7959680815048664,
+            "count": 400,
+            "score": 146.25
+        },
+        "posters": {
+            "orig_bpp": 1.6090259405679035,
+            "compressed_bpp": 1.0220655824264033,
+            "count": 294,
+            "score": 126.53061224489795
+        },
+        "celebrity": {
+            "orig_bpp": 2.5140379716320926,
+            "compressed_bpp": 0.8315619267377,
+            "count": 340,
+            "score": 145.2941176470588
+        },
+        "commonsense_reasoning": {
+            "orig_bpp": 7.5279056695127675,
+            "compressed_bpp": 0.6814218192042184,
+            "count": 140,
+            "score": 110.0
+        },
+        "Perception": {
+            "orig_bpp": 1.9325083584275662,
+            "compressed_bpp": 0.9884589317800723,
+            "count": 2114,
+            "score": 1527.4913965586234
+        },
+        "Cognition": {
+            "orig_bpp": 6.022064827252519,
+            "compressed_bpp": 0.8995030785268572,
+            "count": 260,
+            "score": 467.5
+        },
+        "Total": {
+            "orig_bpp": 2.380395756024233,
+            "compressed_bpp": 0.9787165047177995,
+            "count": 2374,
+            "score": 1994.9913965586234
+        }
+    },
+    "InternVL2_5-1B-compress_70-method_exponential-prefilter_1-prescale_50.0-sigmamin_0.5-sigmamax_3.0-ksize_11": {
+        "hparams": {
+            "top-k": 50,
+            "top-p": 0.9,
+            "sample": false,
+            "dynamic": true,
+            "max_num": 6,
+            "load-in-8bit": false,
+            "load-in-4bit": false,
+            "auto": false,
+            "prefilter": true,
+            "compress-ratio": 70,
+            "sigma_min": 0.5,
+            "sigma_max": 3.0,
+            "method": "exponential",
+            "ksize": 11,
+            "prescale": 50.0,
+            "clip_arch": "TinyCLIP-ViT-39M-16-Text-19M",
+            "clip_pretrained": "YFCC15M",
+            "image_size": 448,
+            "use_thumbnail": true
+        },
+        "OCR": {
+            "orig_bpp": 1.6101320956466119,
+            "compressed_bpp": 1.035391187506854,
+            "count": 40,
+            "score": 170.0
+        },
+        "numerical_calculation": {
+            "orig_bpp": 10.389238591603382,
+            "compressed_bpp": 0.9636598918202692,
+            "count": 40,
+            "score": 67.5
+        },
+        "position": {
+            "orig_bpp": 1.3929193986873358,
+            "compressed_bpp": 0.8482872545798994,
+            "count": 60,
+            "score": 158.33333333333331
+        },
+        "count": {
+            "orig_bpp": 1.5342940777051297,
+            "compressed_bpp": 0.9932384086885899,
+            "count": 60,
+            "score": 128.33333333333334
+        },
+        "existence": {
+            "orig_bpp": 1.4499108710879411,
+            "compressed_bpp": 0.9285300514237398,
+            "count": 60,
+            "score": 190.0
+        },
+        "scene": {
+            "orig_bpp": 1.3626296089392096,
+            "compressed_bpp": 0.9460181464323877,
+            "count": 400,
+            "score": 163.75
+        },
+        "text_translation": {
+            "orig_bpp": 0.9736230536580891,
+            "compressed_bpp": 1.6675491326772005,
+            "count": 40,
+            "score": 192.5
+        },
+        "artwork": {
+            "orig_bpp": 1.2778152194837902,
+            "compressed_bpp": 0.9849977307605924,
+            "count": 400,
+            "score": 153.5
+        },
+        "code_reasoning": {
+            "orig_bpp": 1.4328898885852168,
+            "compressed_bpp": 0.6482250634426406,
+            "count": 40,
+            "score": 102.5
+        },
+        "color": {
+            "orig_bpp": 1.5330678235466546,
+            "compressed_bpp": 0.9471619277313128,
+            "count": 60,
+            "score": 150.0
+        },
+        "landmark": {
+            "orig_bpp": 3.205753468443279,
+            "compressed_bpp": 0.6898428283265773,
+            "count": 400,
+            "score": 148.0
+        },
+        "posters": {
+            "orig_bpp": 1.6090259405679035,
+            "compressed_bpp": 0.8921455554831933,
+            "count": 294,
+            "score": 128.57142857142858
+        },
+        "celebrity": {
+            "orig_bpp": 2.5140379716320926,
+            "compressed_bpp": 0.7665526791058207,
+            "count": 340,
+            "score": 145.88235294117646
+        },
+        "commonsense_reasoning": {
+            "orig_bpp": 7.5279056695127675,
+            "compressed_bpp": 0.6113350853806386,
+            "count": 140,
+            "score": 110.71428571428572
+        },
+        "Perception": {
+            "orig_bpp": 1.9325083584275662,
+            "compressed_bpp": 0.8683589841350744,
+            "count": 2114,
+            "score": 1536.3704481792718
+        },
+        "Cognition": {
+            "orig_bpp": 6.022064827252519,
+            "compressed_bpp": 0.83370875181113,
+            "count": 260,
+            "score": 473.2142857142857
+        },
+        "Total": {
+            "orig_bpp": 2.380395756024233,
+            "compressed_bpp": 0.8645640976969001,
+            "count": 2374,
+            "score": 2009.5847338935575
+        }
+    },
+    "InternVL2_5-1B-compress_70-method_exponential-prefilter_1-prescale_80.0-sigmamin_0.5-sigmamax_3.0-ksize_11": {
+        "hparams": {
+            "top-k": 50,
+            "top-p": 0.9,
+            "sample": false,
+            "dynamic": true,
+            "max_num": 6,
+            "load-in-8bit": false,
+            "load-in-4bit": false,
+            "auto": false,
+            "prefilter": true,
+            "compress-ratio": 70,
+            "sigma_min": 0.5,
+            "sigma_max": 3.0,
+            "method": "exponential",
+            "ksize": 11,
+            "prescale": 80.0,
+            "clip_arch": "TinyCLIP-ViT-39M-16-Text-19M",
+            "clip_pretrained": "YFCC15M",
+            "image_size": 448,
+            "use_thumbnail": true
+        },
+        "OCR": {
+            "orig_bpp": 1.6101320956466119,
+            "compressed_bpp": 0.9724789789272966,
+            "count": 40,
+            "score": 170.0
+        },
+        "numerical_calculation": {
+            "orig_bpp": 10.389238591603382,
+            "compressed_bpp": 0.909782301420108,
+            "count": 40,
+            "score": 67.5
+        },
+        "position": {
+            "orig_bpp": 1.3929193986873358,
+            "compressed_bpp": 0.7868622348546619,
+            "count": 60,
+            "score": 166.66666666666669
+        },
+        "count": {
+            "orig_bpp": 1.5342940777051297,
+            "compressed_bpp": 0.9136006271283436,
+            "count": 60,
+            "score": 128.33333333333334
+        },
+        "existence": {
+            "orig_bpp": 1.4499108710879411,
+            "compressed_bpp": 0.839468309159307,
+            "count": 60,
+            "score": 190.0
+        },
+        "scene": {
+            "orig_bpp": 1.3626296089392096,
+            "compressed_bpp": 0.8646424089408025,
+            "count": 400,
+            "score": 167.0
+        },
+        "text_translation": {
+            "orig_bpp": 0.9736230536580891,
+            "compressed_bpp": 1.6154413096505649,
+            "count": 40,
+            "score": 192.5
+        },
+        "artwork": {
+            "orig_bpp": 1.2778152194837902,
+            "compressed_bpp": 0.8890815256967102,
+            "count": 400,
+            "score": 154.25
+        },
+        "code_reasoning": {
+            "orig_bpp": 1.4328898885852168,
+            "compressed_bpp": 0.6164796730805322,
+            "count": 40,
+            "score": 110.0
+        },
+        "color": {
+            "orig_bpp": 1.5330678235466546,
+            "compressed_bpp": 0.8712257082471452,
+            "count": 60,
+            "score": 150.0
+        },
+        "landmark": {
+            "orig_bpp": 3.205753468443279,
+            "compressed_bpp": 0.6285922261643279,
+            "count": 400,
+            "score": 148.0
+        },
+        "posters": {
+            "orig_bpp": 1.6090259405679035,
+            "compressed_bpp": 0.8119858253924861,
+            "count": 294,
+            "score": 127.89115646258503
+        },
+        "celebrity": {
+            "orig_bpp": 2.5140379716320926,
+            "compressed_bpp": 0.7294047781701452,
+            "count": 340,
+            "score": 143.23529411764707
+        },
+        "commonsense_reasoning": {
+            "orig_bpp": 7.5279056695127675,
+            "compressed_bpp": 0.5746699214130169,
+            "count": 140,
+            "score": 104.28571428571429
+        },
+        "Perception": {
+            "orig_bpp": 1.9325083584275662,
+            "compressed_bpp": 0.7962235068516726,
+            "count": 2114,
+            "score": 1545.3764505802321
+        },
+        "Cognition": {
+            "orig_bpp": 6.022064827252519,
+            "compressed_bpp": 0.7927766167841176,
+            "count": 260,
+            "score": 474.2857142857143
+        },
+        "Total": {
+            "orig_bpp": 2.380395756024233,
+            "compressed_bpp": 0.7958460041484021,
+            "count": 2374,
+            "score": 2019.6621648659464
+        }
+    },
+    "InternVL2_5-1B-compress_70-method_exponential-prefilter_1-prescale_100.0-sigmamin_0.5-sigmamax_3.0-ksize_11": {
+        "hparams": {
+            "top-k": 50,
+            "top-p": 0.9,
+            "sample": false,
+            "dynamic": true,
+            "max_num": 6,
+            "load-in-8bit": false,
+            "load-in-4bit": false,
+            "auto": false,
+            "prefilter": true,
+            "compress-ratio": 70,
+            "sigma_min": 0.5,
+            "sigma_max": 3.0,
+            "method": "exponential",
+            "ksize": 11,
+            "prescale": 100.0,
+            "clip_arch": "TinyCLIP-ViT-39M-16-Text-19M",
+            "clip_pretrained": "YFCC15M",
+            "image_size": 448,
+            "use_thumbnail": true
+        },
+        "OCR": {
+            "orig_bpp": 1.6101320956466119,
+            "compressed_bpp": 0.9470213314839772,
+            "count": 40,
+            "score": 177.5
+        },
+        "numerical_calculation": {
+            "orig_bpp": 10.389238591603382,
+            "compressed_bpp": 0.8807213896377624,
+            "count": 40,
+            "score": 67.5
+        },
+        "position": {
+            "orig_bpp": 1.3929193986873358,
+            "compressed_bpp": 0.7621389692997006,
+            "count": 60,
+            "score": 161.66666666666669
+        },
+        "count": {
+            "orig_bpp": 1.5342940777051297,
+            "compressed_bpp": 0.8794450869540485,
+            "count": 60,
+            "score": 118.33333333333334
+        },
+        "existence": {
+            "orig_bpp": 1.4499108710879411,
+            "compressed_bpp": 0.8045743555822674,
+            "count": 60,
+            "score": 185.0
+        },
+        "scene": {
+            "orig_bpp": 1.3626296089392096,
+            "compressed_bpp": 0.828567858172606,
+            "count": 400,
+            "score": 165.0
+        },
+        "text_translation": {
+            "orig_bpp": 0.9736230536580891,
+            "compressed_bpp": 1.586307809801206,
+            "count": 40,
+            "score": 185.0
+        },
+        "artwork": {
+            "orig_bpp": 1.2778152194837902,
+            "compressed_bpp": 0.8417849166083086,
+            "count": 400,
+            "score": 154.25
+        },
+        "code_reasoning": {
+            "orig_bpp": 1.4328898885852168,
+            "compressed_bpp": 0.6016127721181198,
+            "count": 40,
+            "score": 85.0
+        },
+        "color": {
+            "orig_bpp": 1.5330678235466546,
+            "compressed_bpp": 0.8416694963027941,
+            "count": 60,
+            "score": 150.0
+        },
+        "landmark": {
+            "orig_bpp": 3.205753468443279,
+            "compressed_bpp": 0.6017846108263981,
+            "count": 400,
+            "score": 147.5
+        },
+        "posters": {
+            "orig_bpp": 1.6090259405679035,
+            "compressed_bpp": 0.7780673922149329,
+            "count": 294,
+            "score": 126.87074829931973
+        },
+        "celebrity": {
+            "orig_bpp": 2.5140379716320926,
+            "compressed_bpp": 0.7139756245116535,
+            "count": 340,
+            "score": 144.11764705882354
+        },
+        "commonsense_reasoning": {
+            "orig_bpp": 7.5279056695127675,
+            "compressed_bpp": 0.5592488983196487,
+            "count": 140,
+            "score": 102.14285714285714
+        },
+        "Perception": {
+            "orig_bpp": 1.9325083584275662,
+            "compressed_bpp": 0.7641953678504093,
+            "count": 2114,
+            "score": 1530.2383953581434
+        },
+        "Cognition": {
+            "orig_bpp": 6.022064827252519,
+            "compressed_bpp": 0.7732327870270552,
+            "count": 260,
+            "score": 439.6428571428571
+        },
+        "Total": {
+            "orig_bpp": 2.380395756024233,
+            "compressed_bpp": 0.7651851441713562,
+            "count": 2374,
+            "score": 1969.8812525010005
+        }
+    },
+    "InternVL2_5-1B-compress_5-method_exponential-prefilter_1-prescale_80.0-sigmamin_0.5-sigmamax_3.0-ksize_11": {
+        "hparams": {
+            "top-k": 50,
+            "top-p": 0.9,
+            "sample": false,
+            "dynamic": true,
+            "max_num": 6,
+            "load-in-8bit": false,
+            "load-in-4bit": false,
+            "auto": false,
+            "prefilter": true,
+            "compress-ratio": 5,
+            "sigma_min": 0.5,
+            "sigma_max": 3.0,
+            "method": "exponential",
+            "ksize": 11,
+            "prescale": 80.0,
+            "clip_arch": "TinyCLIP-ViT-39M-16-Text-19M",
+            "clip_pretrained": "YFCC15M",
+            "image_size": 448,
+            "use_thumbnail": true
+        },
+        "OCR": {
+            "orig_bpp": 1.6101320956466119,
+            "compressed_bpp": 0.2574185621300924,
+            "count": 40,
+            "score": 147.5
+        },
+        "numerical_calculation": {
+            "orig_bpp": 10.389238591603382,
+            "compressed_bpp": 0.366740510475368,
+            "count": 40,
+            "score": 75.0
+        },
+        "position": {
+            "orig_bpp": 1.3929193986873358,
+            "compressed_bpp": 0.20446870132019562,
+            "count": 60,
+            "score": 108.33333333333333
+        },
+        "count": {
+            "orig_bpp": 1.5342940777051297,
+            "compressed_bpp": 0.21177664292635753,
+            "count": 60,
+            "score": 98.33333333333333
+        },
+        "existence": {
+            "orig_bpp": 1.4499108710879411,
+            "compressed_bpp": 0.2080948774214562,
+            "count": 60,
+            "score": 185.0
+        },
+        "scene": {
+            "orig_bpp": 1.3626296089392096,
+            "compressed_bpp": 0.20511098837339392,
+            "count": 400,
+            "score": 158.25
+        },
+        "text_translation": {
+            "orig_bpp": 0.9736230536580891,
+            "compressed_bpp": 0.6158599191980764,
+            "count": 40,
+            "score": 185.0
+        },
+        "artwork": {
+            "orig_bpp": 1.2778152194837902,
+            "compressed_bpp": 0.18757166910033163,
+            "count": 400,
+            "score": 123.75
+        },
+        "code_reasoning": {
+            "orig_bpp": 1.4328898885852168,
+            "compressed_bpp": 0.26366682503426514,
+            "count": 40,
+            "score": 107.5
+        },
+        "color": {
+            "orig_bpp": 1.5330678235466546,
+            "compressed_bpp": 0.20955947582933465,
+            "count": 60,
+            "score": 93.33333333333333
+        },
+        "landmark": {
+            "orig_bpp": 3.205753468443279,
+            "compressed_bpp": 0.16794170038358527,
+            "count": 400,
+            "score": 134.75
+        },
+        "posters": {
+            "orig_bpp": 1.6090259405679035,
+            "compressed_bpp": 0.21149206991291747,
+            "count": 294,
+            "score": 114.62585034013605
+        },
+        "celebrity": {
+            "orig_bpp": 2.5140379716320926,
+            "compressed_bpp": 0.22303783381676254,
+            "count": 340,
+            "score": 112.94117647058823
+        },
+        "commonsense_reasoning": {
+            "orig_bpp": 7.5279056695127675,
+            "compressed_bpp": 0.1761455618357907,
+            "count": 140,
+            "score": 95.71428571428571
+        },
+        "Perception": {
+            "orig_bpp": 1.9325083584275662,
+            "compressed_bpp": 0.19990160810315313,
+            "count": 2114,
+            "score": 1276.8170268107242
+        },
+        "Cognition": {
+            "orig_bpp": 6.022064827252519,
+            "compressed_bpp": 0.286581034020458,
+            "count": 260,
+            "score": 463.2142857142857
+        },
+        "Total": {
+            "orig_bpp": 2.380395756024233,
+            "compressed_bpp": 0.2093947213038689,
+            "count": 2374,
+            "score": 1740.03131252501
+        }
+    },
+    "InternVL2_5-1B-compress_10-method_exponential-prefilter_1-prescale_80.0-sigmamin_0.5-sigmamax_3.0-ksize_11": {
+        "hparams": {
+            "top-k": 50,
+            "top-p": 0.9,
+            "sample": false,
+            "dynamic": true,
+            "max_num": 6,
+            "load-in-8bit": false,
+            "load-in-4bit": false,
+            "auto": false,
+            "prefilter": true,
+            "compress-ratio": 10,
+            "sigma_min": 0.5,
+            "sigma_max": 3.0,
+            "method": "exponential",
+            "ksize": 11,
+            "prescale": 80.0,
+            "clip_arch": "TinyCLIP-ViT-39M-16-Text-19M",
+            "clip_pretrained": "YFCC15M",
+            "image_size": 448,
+            "use_thumbnail": true
+        },
+        "OCR": {
+            "orig_bpp": 1.6101320956466119,
+            "compressed_bpp": 0.3401444392484826,
+            "count": 40,
+            "score": 155.0
+        },
+        "numerical_calculation": {
+            "orig_bpp": 10.389238591603382,
+            "compressed_bpp": 0.4159923278271174,
+            "count": 40,
+            "score": 60.0
+        },
+        "position": {
+            "orig_bpp": 1.3929193986873358,
+            "compressed_bpp": 0.26523740763426695,
+            "count": 60,
+            "score": 143.33333333333331
+        },
+        "count": {
+            "orig_bpp": 1.5342940777051297,
+            "compressed_bpp": 0.2831674153162378,
+            "count": 60,
+            "score": 131.66666666666666
+        },
+        "existence": {
+            "orig_bpp": 1.4499108710879411,
+            "compressed_bpp": 0.27157015514858235,
+            "count": 60,
+            "score": 185.0
+        },
+        "scene": {
+            "orig_bpp": 1.3626296089392096,
+            "compressed_bpp": 0.2750124712298061,
+            "count": 400,
+            "score": 164.25
+        },
+        "text_translation": {
+            "orig_bpp": 0.9736230536580891,
+            "compressed_bpp": 0.7519055279074869,
+            "count": 40,
+            "score": 192.5
+        },
+        "artwork": {
+            "orig_bpp": 1.2778152194837902,
+            "compressed_bpp": 0.2541924770306087,
+            "count": 400,
+            "score": 143.0
+        },
+        "code_reasoning": {
+            "orig_bpp": 1.4328898885852168,
+            "compressed_bpp": 0.3103214855863756,
+            "count": 40,
+            "score": 110.0
+        },
+        "color": {
+            "orig_bpp": 1.5330678235466546,
+            "compressed_bpp": 0.276461743895643,
+            "count": 60,
+            "score": 135.0
+        },
+        "landmark": {
+            "orig_bpp": 3.205753468443279,
+            "compressed_bpp": 0.2146543888749674,
+            "count": 400,
+            "score": 137.0
+        },
+        "posters": {
+            "orig_bpp": 1.6090259405679035,
+            "compressed_bpp": 0.2771852050634403,
+            "count": 294,
+            "score": 122.10884353741497
+        },
+        "celebrity": {
+            "orig_bpp": 2.5140379716320926,
+            "compressed_bpp": 0.27732797842298046,
+            "count": 340,
+            "score": 129.11764705882354
+        },
+        "commonsense_reasoning": {
+            "orig_bpp": 7.5279056695127675,
+            "compressed_bpp": 0.22054644183612918,
+            "count": 140,
+            "score": 109.28571428571428
+        },
+        "Perception": {
+            "orig_bpp": 1.9325083584275662,
+            "compressed_bpp": 0.2614568016538509,
+            "count": 2114,
+            "score": 1445.4764905962384
+        },
+        "Cognition": {
+            "orig_bpp": 6.022064827252519,
+            "compressed_bpp": 0.34617413657652796,
+            "count": 260,
+            "score": 471.7857142857143
+        },
+        "Total": {
+            "orig_bpp": 2.380395756024233,
+            "compressed_bpp": 0.27073502704555097,
+            "count": 2374,
+            "score": 1917.2622048819526
+        }
+    },
+    "InternVL2_5-1B-compress_20-method_exponential-prefilter_1-prescale_80.0-sigmamin_0.5-sigmamax_3.0-ksize_11": {
+        "hparams": {
+            "top-k": 50,
+            "top-p": 0.9,
+            "sample": false,
+            "dynamic": true,
+            "max_num": 6,
+            "load-in-8bit": false,
+            "load-in-4bit": false,
+            "auto": false,
+            "prefilter": true,
+            "compress-ratio": 20,
+            "sigma_min": 0.5,
+            "sigma_max": 3.0,
+            "method": "exponential",
+            "ksize": 11,
+            "prescale": 80.0,
+            "clip_arch": "TinyCLIP-ViT-39M-16-Text-19M",
+            "clip_pretrained": "YFCC15M",
+            "image_size": 448,
+            "use_thumbnail": true
+        },
+        "OCR": {
+            "orig_bpp": 1.6101320956466119,
+            "compressed_bpp": 0.4664977856216469,
+            "count": 40,
+            "score": 162.5
+        },
+        "numerical_calculation": {
+            "orig_bpp": 10.389238591603382,
+            "compressed_bpp": 0.49443097173041056,
+            "count": 40,
+            "score": 67.5
+        },
+        "position": {
+            "orig_bpp": 1.3929193986873358,
+            "compressed_bpp": 0.3643475670064741,
+            "count": 60,
+            "score": 151.66666666666669
+        },
+        "count": {
+            "orig_bpp": 1.5342940777051297,
+            "compressed_bpp": 0.40250681249044573,
+            "count": 60,
+            "score": 131.66666666666666
+        },
+        "existence": {
+            "orig_bpp": 1.4499108710879411,
+            "compressed_bpp": 0.37575500830222824,
+            "count": 60,
+            "score": 190.0
+        },
+        "scene": {
+            "orig_bpp": 1.3626296089392096,
+            "compressed_bpp": 0.3878757468198991,
+            "count": 400,
+            "score": 164.75
+        },
+        "text_translation": {
+            "orig_bpp": 0.9736230536580891,
+            "compressed_bpp": 0.942064825964423,
+            "count": 40,
+            "score": 192.5
+        },
+        "artwork": {
+            "orig_bpp": 1.2778152194837902,
+            "compressed_bpp": 0.37709546627395285,
+            "count": 400,
+            "score": 153.0
+        },
+        "code_reasoning": {
+            "orig_bpp": 1.4328898885852168,
+            "compressed_bpp": 0.37564151729040696,
+            "count": 40,
+            "score": 100.0
+        },
+        "color": {
+            "orig_bpp": 1.5330678235466546,
+            "compressed_bpp": 0.3874129327555629,
+            "count": 60,
+            "score": 145.0
+        },
+        "landmark": {
+            "orig_bpp": 3.205753468443279,
+            "compressed_bpp": 0.2930262991221568,
+            "count": 400,
+            "score": 143.75
+        },
+        "posters": {
+            "orig_bpp": 1.6090259405679035,
+            "compressed_bpp": 0.3831957400427246,
+            "count": 294,
+            "score": 121.42857142857142
+        },
+        "celebrity": {
+            "orig_bpp": 2.5140379716320926,
+            "compressed_bpp": 0.3658774081170628,
+            "count": 340,
+            "score": 141.1764705882353
+        },
+        "commonsense_reasoning": {
+            "orig_bpp": 7.5279056695127675,
+            "compressed_bpp": 0.29179998345162683,
+            "count": 140,
+            "score": 108.57142857142856
+        },
+        "Perception": {
+            "orig_bpp": 1.9325083584275662,
+            "compressed_bpp": 0.36457810874026225,
+            "count": 2114,
+            "score": 1504.93837535014
+        },
+        "Cognition": {
+            "orig_bpp": 6.022064827252519,
+            "compressed_bpp": 0.43591342416399,
+            "count": 260,
+            "score": 468.57142857142856
+        },
+        "Total": {
+            "orig_bpp": 2.380395756024233,
+            "compressed_bpp": 0.3723907380621533,
+            "count": 2374,
+            "score": 1973.5098039215686
+        }
+    },
+    "InternVL2_5-1B-compress_40-method_exponential-prefilter_1-prescale_80.0-sigmamin_0.5-sigmamax_3.0-ksize_11": {
+        "hparams": {
+            "top-k": 50,
+            "top-p": 0.9,
+            "sample": false,
+            "dynamic": true,
+            "max_num": 6,
+            "load-in-8bit": false,
+            "load-in-4bit": false,
+            "auto": false,
+            "prefilter": true,
+            "compress-ratio": 40,
+            "sigma_min": 0.5,
+            "sigma_max": 3.0,
+            "method": "exponential",
+            "ksize": 11,
+            "prescale": 80.0,
+            "clip_arch": "TinyCLIP-ViT-39M-16-Text-19M",
+            "clip_pretrained": "YFCC15M",
+            "image_size": 448,
+            "use_thumbnail": true
+        },
+        "OCR": {
+            "orig_bpp": 1.6101320956466119,
+            "compressed_bpp": 0.647344524152399,
+            "count": 40,
+            "score": 177.5
+        },
+        "numerical_calculation": {
+            "orig_bpp": 10.389238591603382,
+            "compressed_bpp": 0.6423588714368443,
+            "count": 40,
+            "score": 67.5
+        },
+        "position": {
+            "orig_bpp": 1.3929193986873358,
+            "compressed_bpp": 0.514997203178482,
+            "count": 60,
+            "score": 161.66666666666669
+        },
+        "count": {
+            "orig_bpp": 1.5342940777051297,
+            "compressed_bpp": 0.5820845708873571,
+            "count": 60,
+            "score": 116.66666666666666
+        },
+        "existence": {
+            "orig_bpp": 1.4499108710879411,
+            "compressed_bpp": 0.5353391430891324,
+            "count": 60,
+            "score": 185.0
+        },
+        "scene": {
+            "orig_bpp": 1.3626296089392096,
+            "compressed_bpp": 0.5543130070840923,
+            "count": 400,
+            "score": 163.25
+        },
+        "text_translation": {
+            "orig_bpp": 0.9736230536580891,
+            "compressed_bpp": 1.2171447535802433,
+            "count": 40,
+            "score": 192.5
+        },
+        "artwork": {
+            "orig_bpp": 1.2778152194837902,
+            "compressed_bpp": 0.59104873009631,
+            "count": 400,
+            "score": 154.0
+        },
+        "code_reasoning": {
+            "orig_bpp": 1.4328898885852168,
+            "compressed_bpp": 0.47164096710948816,
+            "count": 40,
+            "score": 100.0
+        },
+        "color": {
+            "orig_bpp": 1.5330678235466546,
+            "compressed_bpp": 0.5545220825166981,
+            "count": 60,
+            "score": 150.0
+        },
+        "landmark": {
+            "orig_bpp": 3.205753468443279,
+            "compressed_bpp": 0.4167480313927045,
+            "count": 400,
+            "score": 146.5
+        },
+        "posters": {
+            "orig_bpp": 1.6090259405679035,
+            "compressed_bpp": 0.5460254198363227,
+            "count": 294,
+            "score": 126.19047619047618
+        },
+        "celebrity": {
+            "orig_bpp": 2.5140379716320926,
+            "compressed_bpp": 0.5012567573440435,
+            "count": 340,
+            "score": 142.3529411764706
+        },
+        "commonsense_reasoning": {
+            "orig_bpp": 7.5279056695127675,
+            "compressed_bpp": 0.4000337074707039,
+            "count": 140,
+            "score": 108.57142857142856
+        },
+        "Perception": {
+            "orig_bpp": 1.9325083584275662,
+            "compressed_bpp": 0.5264489306076123,
+            "count": 2114,
+            "score": 1523.12675070028
+        },
+        "Cognition": {
+            "orig_bpp": 6.022064827252519,
+            "compressed_bpp": 0.5740403951190829,
+            "count": 260,
+            "score": 468.57142857142856
+        },
+        "Total": {
+            "orig_bpp": 2.380395756024233,
+            "compressed_bpp": 0.5316611381783716,
+            "count": 2374,
+            "score": 1991.6981792717083
+        }
+    },
+    "InternVL2_5-1B-compress_60-method_exponential-prefilter_1-prescale_80.0-sigmamin_0.5-sigmamax_3.0-ksize_11": {
+        "hparams": {
+            "top-k": 50,
+            "top-p": 0.9,
+            "sample": false,
+            "dynamic": true,
+            "max_num": 6,
+            "load-in-8bit": false,
+            "load-in-4bit": false,
+            "auto": false,
+            "prefilter": true,
+            "compress-ratio": 60,
+            "sigma_min": 0.5,
+            "sigma_max": 3.0,
+            "method": "exponential",
+            "ksize": 11,
+            "prescale": 80.0,
+            "clip_arch": "TinyCLIP-ViT-39M-16-Text-19M",
+            "clip_pretrained": "YFCC15M",
+            "image_size": 448,
+            "use_thumbnail": true
+        },
+        "OCR": {
+            "orig_bpp": 1.6101320956466119,
+            "compressed_bpp": 0.8545478256221248,
+            "count": 40,
+            "score": 170.0
+        },
+        "numerical_calculation": {
+            "orig_bpp": 10.389238591603382,
+            "compressed_bpp": 0.787495800375885,
+            "count": 40,
+            "score": 67.5
+        },
+        "position": {
+            "orig_bpp": 1.3929193986873358,
+            "compressed_bpp": 0.6835720824409773,
+            "count": 60,
+            "score": 161.66666666666669
+        },
+        "count": {
+            "orig_bpp": 1.5342940777051297,
+            "compressed_bpp": 0.793047865150419,
+            "count": 60,
+            "score": 133.33333333333334
+        },
+        "existence": {
+            "orig_bpp": 1.4499108710879411,
+            "compressed_bpp": 0.7299322126470259,
+            "count": 60,
+            "score": 195.0
+        },
+        "scene": {
+            "orig_bpp": 1.3626296089392096,
+            "compressed_bpp": 0.750935242302875,
+            "count": 400,
+            "score": 164.75
+        },
+        "text_translation": {
+            "orig_bpp": 0.9736230536580891,
+            "compressed_bpp": 1.4440245606752535,
+            "count": 40,
+            "score": 192.5
+        },
+        "artwork": {
+            "orig_bpp": 1.2778152194837902,
+            "compressed_bpp": 0.7706524605048,
+            "count": 400,
+            "score": 154.75
+        },
+        "code_reasoning": {
+            "orig_bpp": 1.4328898885852168,
+            "compressed_bpp": 0.5542883423460915,
+            "count": 40,
+            "score": 102.5
+        },
+        "color": {
+            "orig_bpp": 1.5330678235466546,
+            "compressed_bpp": 0.7585463958792228,
+            "count": 60,
+            "score": 150.0
+        },
+        "landmark": {
+            "orig_bpp": 3.205753468443279,
+            "compressed_bpp": 0.5341871331399939,
+            "count": 400,
+            "score": 148.5
+        },
+        "posters": {
+            "orig_bpp": 1.6090259405679035,
+            "compressed_bpp": 0.6933427987572754,
+            "count": 294,
+            "score": 125.85034013605443
+        },
+        "celebrity": {
+            "orig_bpp": 2.5140379716320926,
+            "compressed_bpp": 0.6282944037024565,
+            "count": 340,
+            "score": 144.11764705882354
+        },
+        "commonsense_reasoning": {
+            "orig_bpp": 7.5279056695127675,
+            "compressed_bpp": 0.49701161050217146,
+            "count": 140,
+            "score": 105.71428571428572
+        },
+        "Perception": {
+            "orig_bpp": 1.9325083584275662,
+            "compressed_bpp": 0.6867836522537775,
+            "count": 2114,
+            "score": 1547.9679871948779
+        },
+        "Cognition": {
+            "orig_bpp": 6.022064827252519,
+            "compressed_bpp": 0.6962075907930507,
+            "count": 260,
+            "score": 468.2142857142857
+        },
+        "Total": {
+            "orig_bpp": 2.380395756024233,
+            "compressed_bpp": 0.6878157600971688,
+            "count": 2374,
+            "score": 2016.1822729091637
+        }
+    },
+    "InternVL2_5-1B-compress_80-method_exponential-prefilter_1-prescale_80.0-sigmamin_0.5-sigmamax_3.0-ksize_11": {
+        "hparams": {
+            "top-k": 50,
+            "top-p": 0.9,
+            "sample": false,
+            "dynamic": true,
+            "max_num": 6,
+            "load-in-8bit": false,
+            "load-in-4bit": false,
+            "auto": false,
+            "prefilter": true,
+            "compress-ratio": 80,
+            "sigma_min": 0.5,
+            "sigma_max": 3.0,
+            "method": "exponential",
+            "ksize": 11,
+            "prescale": 80.0,
+            "clip_arch": "TinyCLIP-ViT-39M-16-Text-19M",
+            "clip_pretrained": "YFCC15M",
+            "image_size": 448,
+            "use_thumbnail": true
+        },
+        "OCR": {
+            "orig_bpp": 1.6101320956466119,
+            "compressed_bpp": 1.1346724319448274,
+            "count": 40,
+            "score": 170.0
+        },
+        "numerical_calculation": {
+            "orig_bpp": 10.389238591603382,
+            "compressed_bpp": 1.094244173222323,
+            "count": 40,
+            "score": 75.0
+        },
+        "position": {
+            "orig_bpp": 1.3929193986873358,
+            "compressed_bpp": 0.9375993126073138,
+            "count": 60,
+            "score": 161.66666666666669
+        },
+        "count": {
+            "orig_bpp": 1.5342940777051297,
+            "compressed_bpp": 1.082144079340368,
+            "count": 60,
+            "score": 128.33333333333334
+        },
+        "existence": {
+            "orig_bpp": 1.4499108710879411,
+            "compressed_bpp": 0.9949625807583142,
+            "count": 60,
+            "score": 185.0
+        },
+        "scene": {
+            "orig_bpp": 1.3626296089392096,
+            "compressed_bpp": 1.0236243013513475,
+            "count": 400,
+            "score": 165.5
+        },
+        "text_translation": {
+            "orig_bpp": 0.9736230536580891,
+            "compressed_bpp": 1.8825814401629604,
+            "count": 40,
+            "score": 192.5
+        },
+        "artwork": {
+            "orig_bpp": 1.2778152194837902,
+            "compressed_bpp": 1.0944350944049026,
+            "count": 400,
+            "score": 154.25
+        },
+        "code_reasoning": {
+            "orig_bpp": 1.4328898885852168,
+            "compressed_bpp": 0.7153315684371874,
+            "count": 40,
+            "score": 87.5
+        },
+        "color": {
+            "orig_bpp": 1.5330678235466546,
+            "compressed_bpp": 1.0312130670590514,
+            "count": 60,
+            "score": 150.0
+        },
+        "landmark": {
+            "orig_bpp": 3.205753468443279,
+            "compressed_bpp": 0.7883020517814626,
+            "count": 400,
+            "score": 151.5
+        },
+        "posters": {
+            "orig_bpp": 1.6090259405679035,
+            "compressed_bpp": 0.989297314002961,
+            "count": 294,
+            "score": 125.51020408163265
+        },
+        "celebrity": {
+            "orig_bpp": 2.5140379716320926,
+            "compressed_bpp": 0.897219530616181,
+            "count": 340,
+            "score": 146.76470588235293
+        },
+        "commonsense_reasoning": {
+            "orig_bpp": 7.5279056695127675,
+            "compressed_bpp": 0.7000337586829671,
+            "count": 140,
+            "score": 106.42857142857143
+        },
+        "Perception": {
+            "orig_bpp": 1.9325083584275662,
+            "compressed_bpp": 0.9681147915823809,
+            "count": 2114,
+            "score": 1538.5249099639855
+        },
+        "Cognition": {
+            "orig_bpp": 6.022064827252519,
+            "compressed_bpp": 0.9449654364942854,
+            "count": 260,
+            "score": 461.42857142857144
+        },
+        "Total": {
+            "orig_bpp": 2.380395756024233,
+            "compressed_bpp": 0.96557947889371,
+            "count": 2374,
+            "score": 1999.953481392557
+        }
+    },
+    "InternVL2_5-1B-compress_90-method_exponential-prefilter_1-prescale_80.0-sigmamin_0.5-sigmamax_3.0-ksize_11": {
+        "hparams": {
+            "top-k": 50,
+            "top-p": 0.9,
+            "sample": false,
+            "dynamic": true,
+            "max_num": 6,
+            "load-in-8bit": false,
+            "load-in-4bit": false,
+            "auto": false,
+            "prefilter": true,
+            "compress-ratio": 90,
+            "sigma_min": 0.5,
+            "sigma_max": 3.0,
+            "method": "exponential",
+            "ksize": 11,
+            "prescale": 80.0,
+            "clip_arch": "TinyCLIP-ViT-39M-16-Text-19M",
+            "clip_pretrained": "YFCC15M",
+            "image_size": 448,
+            "use_thumbnail": true
+        },
+        "OCR": {
+            "orig_bpp": 1.6101320956466119,
+            "compressed_bpp": 1.5498639954447286,
+            "count": 40,
+            "score": 170.0
+        },
+        "numerical_calculation": {
+            "orig_bpp": 10.389238591603382,
+            "compressed_bpp": 1.5386530186293617,
+            "count": 40,
+            "score": 75.0
+        },
+        "position": {
+            "orig_bpp": 1.3929193986873358,
+            "compressed_bpp": 1.3134376432038792,
+            "count": 60,
+            "score": 163.33333333333334
+        },
+        "count": {
+            "orig_bpp": 1.5342940777051297,
+            "compressed_bpp": 1.5082524008517582,
+            "count": 60,
+            "score": 123.33333333333333
+        },
+        "existence": {
+            "orig_bpp": 1.4499108710879411,
+            "compressed_bpp": 1.3896664239645393,
+            "count": 60,
+            "score": 190.0
+        },
+        "scene": {
+            "orig_bpp": 1.3626296089392096,
+            "compressed_bpp": 1.4258016046297548,
+            "count": 400,
+            "score": 163.75
+        },
+        "text_translation": {
+            "orig_bpp": 0.9736230536580891,
+            "compressed_bpp": 2.479415455090007,
+            "count": 40,
+            "score": 192.5
+        },
+        "artwork": {
+            "orig_bpp": 1.2778152194837902,
+            "compressed_bpp": 1.527969207023561,
+            "count": 400,
+            "score": 155.0
+        },
+        "code_reasoning": {
+            "orig_bpp": 1.4328898885852168,
+            "compressed_bpp": 0.9314118328041724,
+            "count": 40,
+            "score": 87.5
+        },
+        "color": {
+            "orig_bpp": 1.5330678235466546,
+            "compressed_bpp": 1.4442763646380292,
+            "count": 60,
+            "score": 145.0
+        },
+        "landmark": {
+            "orig_bpp": 3.205753468443279,
+            "compressed_bpp": 1.1549414858286924,
+            "count": 400,
+            "score": 152.25
+        },
+        "posters": {
+            "orig_bpp": 1.6090259405679035,
+            "compressed_bpp": 1.387383129677019,
+            "count": 294,
+            "score": 126.53061224489795
+        },
+        "celebrity": {
+            "orig_bpp": 2.5140379716320926,
+            "compressed_bpp": 1.321193416046722,
+            "count": 340,
+            "score": 146.76470588235293
+        },
+        "commonsense_reasoning": {
+            "orig_bpp": 7.5279056695127675,
+            "compressed_bpp": 0.9978858981007773,
+            "count": 140,
+            "score": 112.85714285714286
+        },
+        "Perception": {
+            "orig_bpp": 1.9325083584275662,
+            "compressed_bpp": 1.3727123227772062,
+            "count": 2114,
+            "score": 1535.9619847939175
+        },
+        "Cognition": {
+            "orig_bpp": 6.022064827252519,
+            "compressed_bpp": 1.298781684596348,
+            "count": 260,
+            "score": 467.8571428571429
+        },
+        "Total": {
+            "orig_bpp": 2.380395756024233,
+            "compressed_bpp": 1.3646154542317037,
+            "count": 2374,
+            "score": 2003.8191276510604
+        }
+    }
+}
